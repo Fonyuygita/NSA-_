@@ -1,0 +1,146 @@
+.container {
+    display: flex;
+    gap: 100px;
+
+  
+ 
+  }
+  
+  .textContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 3rem;
+  }
+  
+  .title{
+    font-size: 50px;
+    color: #111;
+    font-weight: bolder;
+  }
+  .title2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #444;
+    font-weight: bold;
+
+  }
+  
+  
+  .desc{
+    font-size: 20px;
+    color: #555;
+  }
+  
+  .buttons{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .button{
+    padding: 20px;
+    min-width: 120px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .button:first-child{
+    background-color: #072451;
+    color: var(--text);
+  }
+  
+  .brands{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    filter: grayscale(1);
+  }
+  
+  .imgContainer {
+    margin-top: 2rem;
+    flex: 1;
+    position: relative;
+
+  }
+
+  .image{
+
+    display: block;
+  object-fit: cover;
+  width: 100%;
+  height: auto
+
+  }
+  
+  .overlay {
+    position: absolute; 
+    background: rgba(57, 57, 57, 0.5);
+  
+    /* center overlay text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay_2 {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+
+  @media (max-width: 1024px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+      gap: 23px;
+      height: 100vh;
+      flex-direction: column-reverse;
+      
+     
+    }
+
+    .imgContainer{
+      display: block;
+    }
+
+    .image{
+      margin: 0 auto;
+      width: 90%;
+      height: 200px;
+      background-color: red;
+    }
+  
+    .buttons{
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 44px;
+    }
+  
+    .brands{
+      width: 100%;
+    }
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
