@@ -1,0 +1,71 @@
+.card {
+
+cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: transform 0.3s;
+    gap: 11px;
+    padding: 12px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  
+  
+ 
+  
+  .cardContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    
+    padding: 20px;
+    color: #fff;
+    z-index: 1;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .cardTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .cardText {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .cardButton {
+    background-color:var(--btn2);
+    color: var(--text);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    outline: none;
+    border: none;
+  }
+  
+  .cardButton:hover {
+    background-color: #000;
+    color: #fff;
+  }

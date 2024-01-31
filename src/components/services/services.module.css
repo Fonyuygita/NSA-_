@@ -1,5 +1,73 @@
 .container{
     margin-top: 3rem;
     height: 100vh;
-    background-color: #222;
+    padding: 12px;
+    margin-bottom: 2rem;
+    
 }
+.text{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: #222;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.text p{
+    font-size: 19px;
+    margin-bottom: 2rem;
+}
+
+.container h1{
+    color: #000;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-align: center;
+   
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+ 
+
+}
+
+
+@media (max-width: 768px) {
+    .cardContainer {
+     
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+    }
+
+    .text{
+        
+        width: 100%;
+        
+    }
+    
+    .text p{
+        font-size: 17px;
+        margin-bottom: 2rem;
+        width: 100%;
+       
+
+    }
+
+    
+.container h1{
+    color: #000;
+    font-size: 2rem;
+    text-align: center;
+   
+}
+  }
+
+
+  
+ 
