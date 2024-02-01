@@ -33,6 +33,11 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+}
+
+.slick-slide > div{
+  margin: 0 auto;
 }
 
 @media (max-width: 1536px) {

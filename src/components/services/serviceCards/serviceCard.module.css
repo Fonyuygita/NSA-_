@@ -1,5 +1,5 @@
 .card {
-
+height: fit-content;
 cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -26,16 +26,16 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 12px;
-    
+    gap: 12px;    
     padding: 20px;
     color: #fff;
     z-index: 1;
   }
   
   .card img {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    height: 280px;
     border-radius: 10px 10px 0 0;
   }
   
