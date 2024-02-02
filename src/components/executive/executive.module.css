@@ -1,5 +1,63 @@
 .container{
-    background-color: var(--btn2);
-    margin-top: 3rem;
-    color: white;
+   
+    /* margin-top: 1rem; */
+    color: #fff;
 }
+.title{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    color: #000;
+    font-weight: bolder;
+}
+.cardConatiner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.desc{
+
+    font-size: small;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    color: #333;
+    margin-bottom: 2rem;
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    .cardConatiner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 22px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+   
+  }
+  
+   @media (max-width: 640px) {
+    .title {
+      font-size: 1.4rem;
+      width: 90%;
+    }
+
+    .desc{
+        font-size: small;
+      width: 90%;
+
+    }
+  } 
+  @media (max-width: 475px) {
+    
+  } 

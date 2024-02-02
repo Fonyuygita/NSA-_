@@ -1,0 +1,57 @@
+.card {
+    /* background-color: #fcfcfc; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background-color: #f9f9f9;
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+
+  .desc{
+    color: #444;
+    font-size: small;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .name {
+    margin-top: 16px;
+    font-size: 17px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .position {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bolder;
+  }
+  
+  .socialMedia {
+    margin-top: 24px;
+  }
+  
+  .socialMediaLink {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  
+  .socialMediaLink img {
+    width: 24px;
+    height: 24px;
+  }

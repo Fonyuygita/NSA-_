@@ -6,10 +6,10 @@ import Executives from "@/components/executive/Executive";
 
 const Home = () => {
   return (
-    <section>
+    <section className={styles.content}> 
       <Hero/>
-      <Services/>
       <Executives/>
+      <Services/>
     </section>
      );
 };
