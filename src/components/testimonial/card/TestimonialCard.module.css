@@ -1,0 +1,92 @@
+.card {
+    /* background-color: #f9f9f9; */
+    background-color: var(--btn2);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+    position: relative;
+
+
+  }
+  
+  .top{
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .name {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .position {
+    font-size: 16px;
+    color:gainsboro;
+    margin-bottom: 8px;
+  }
+  
+  .company {
+    font-size: 16px;
+    color:floralwhite;
+    margin-bottom: 16px;
+  }
+  
+  .message {
+    font-size: small;
+    color: #999;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card-enter {
+    animation: fade-in 0.5s ease;
+    animation-fill-mode: both;
+  }
+
+
+  /* our quote logo */
+
+ 
+  
+  .quoteLogo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+   
+    background-size: cover;
+  }
+  
+  /* ... existing styles ... */

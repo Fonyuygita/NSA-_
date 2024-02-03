@@ -8,7 +8,7 @@ const Executives=()=>{
 
         name: 'Mrs Nkey Vandoline',
         position: 'General President ',
-        picture: '/a.png',
+        picture: '/a1.png',
         desc:"Being a member of NSA has brought me so far and I wish I had started this journey even earlier. ",
         socialMedia: [
           { name: 'LinkedIn', icon: '/linkedin.svg', url: 'https://www.linkedin.com/' },
@@ -23,6 +23,21 @@ const Executives=()=>{
         name: 'Mr Nyowike Briand Banda',
         position: 'General Vice President',
         picture: '/b.png',
+        desc:"I am also the Secretary General of NSA Mbinon Branch, Vice Secretary General of NSA Yaoundé Branch.",
+        socialMedia: [
+          { name: 'LinkedIn', icon: '/linkedin.svg', url: 'https://www.linkedin.com/' },
+          { name: 'Twitter', icon: '/twitter.svg', url: 'https://twitter.com/' },
+          { name: 'Instagram', icon: '/facebook.svg', url: 'https://www.instagram.com/' },
+        ],
+
+      },
+
+      
+      {
+
+        name: 'Mr Nyowike Briand Banda',
+        position: 'General Vice President',
+        picture: '/a2.png',
         desc:"I am also the Secretary General of NSA Mbinon Branch, Vice Secretary General of NSA Yaoundé Branch.",
         socialMedia: [
           { name: 'LinkedIn', icon: '/linkedin.svg', url: 'https://www.linkedin.com/' },

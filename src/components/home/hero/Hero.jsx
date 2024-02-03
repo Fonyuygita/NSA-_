@@ -44,7 +44,7 @@ const Hero=()=>{
     <div className={styles.container}>
     <div className={styles.textContainer}>
       <div className={styles.textHead}>
-      <h1 className={styles.title}>Noni Student Association(NSA).</h1>
+      <h1 className={styles.title}>Noni Student Association.</h1>
       <h2 className={styles.title2}>{"`Kentaashe nu Mvungay` (Unity Is Strength)"}</h2>
       </div>
       <p className={styles.desc}>
