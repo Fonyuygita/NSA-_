@@ -1,6 +1,6 @@
 .container{
     /* margin-top: 3rem; */
-    height: 100vh;
+    /* height: 100vh; */
     padding: 12px;
     /* margin-bottom: 2rem; */
     
@@ -30,7 +30,8 @@
    
 }
 /* .cardContainer{
-   
+   display: flex;
+   gap: 13px;
  
 
 } */

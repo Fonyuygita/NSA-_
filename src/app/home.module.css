@@ -1,7 +1,7 @@
 .content{
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 3.6rem;
 }
 
 .container {

@@ -1,14 +1,15 @@
 .card {
     /* background-color: #f9f9f9; */
     background-color: var(--btn2);
-    border-radius: 8px;
+    border-radius: 13px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 24px;
+    padding: 34px;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: transform 0.3s ease;
     position: relative;
+    
 
 
   }
@@ -16,9 +17,9 @@
   .top{
     display: flex;
     padding: 12px;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 52px;
   }
   .card:hover {
     transform: translateY(-4px);

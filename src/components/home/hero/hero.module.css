@@ -11,7 +11,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     margin-top: 3rem;
   }
   
@@ -20,6 +20,15 @@
     color: #111;
     font-weight: bolder;
   }
+
+  .slideText{
+    width: 80%;
+    margin: 0 auto;
+    font-weight: bolder;
+    color: #fff;
+    
+  }
+
   .title2{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
@@ -54,9 +63,46 @@
   
   .brands{
     width: 500px;
-    height: 50px;
-    position: relative;
-    filter: grayscale(1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: center;
+    justify-content: center; */
+    gap: 7px;
+   
+
+  }
+
+  .box{
+    background-color: var(--btn2);
+    color: aliceblue;
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 12px;
+ 
+  }
+
+  .number{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 17px;
+  }
+
+  .box h3{
+    width: 60px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 13px;
+    color: #888;
+
+  }
+
+  .box p{
+    width: 60px;
+    margin: 0 auto;
+    font-weight: bold;
   }
   
   .imgContainer {
@@ -104,6 +150,10 @@
       
      
     }
+.brand{
+  margin: 0 auto;
+}
+   
 
     .imgContainer{
       display: block;
@@ -127,13 +177,13 @@
     }
   
     .brands{
-      width: 100%;
+      width: 90%;
+    margin: 0 auto;
+
     }
   }
   
   
-
-
 
 
 

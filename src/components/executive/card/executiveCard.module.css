@@ -5,8 +5,16 @@
     padding: 24px;
     text-align: center;
     transition: transform 0.3s ease;
-    background-color: #f9f9f9;
+    background-color: #eee4e4;
     
+  }
+
+  .card:nth-child(even){
+    border-bottom: 2px solid var(--btn2);
+  }
+
+  .card:nth-child(odd){
+    border-bottom: 2px solid #932820;
   }
   
   .card:hover {

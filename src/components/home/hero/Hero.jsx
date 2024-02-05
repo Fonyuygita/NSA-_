@@ -7,24 +7,68 @@ import { useEffect, useState } from "react"
 
 const Hero=()=>{
   //data for slide show
-  const [currentSlide, setCurrentSlide]=useState(1);
+  const [currentSlide, setCurrentSlide]=useState(0);
 
   const data=[
     {
         id:1,
-        title:"Always fresh & always crispy & always hot",
-        image:"/img1.png"
+        title:"Noni Elites Empowering Noni Students in Bambili.",
+        image:"/e1.png"
     },
     {
         id:2,
-        title:"We Deliver your order wherever you are ",
-        image:"/img2.png"
+        title:"President Emeritus Dr Ndiyun Robert for his PHD defense in Johannesburg-South Africa",
+        image:"/e6.png"
     },
     {
         id:3,
-        title:"The bet piza to share with your family",
-        image:"/img3.png"
-    }
+        title:"Football match between NSA Douala Branch and NSA Nkor Branch at ANC 2022 in Douala",
+        image:"/e3.png"
+    },
+
+    {
+      id:4,
+      title:"Exciting moments when members of NSA Douala Branch welcomed Mr and Miss NSA 2023 from Bambili.",
+      image:"/e4.png"
+  },
+
+  {
+    id:5,
+    title:"A shot with host at CRTV Bamenda.",
+    image:"/e8.png"
+},
+
+{
+  id:6,
+  title:"Noni Students at the helm of promoting culture.",
+  image:"/e5.png"
+},
+
+
+{
+  id:7,
+  title:"Cross session of General Assembly of NSA at ANC 2022 DOUALA",
+  image:"/e9.png"
+},
+
+
+{
+  id:8,
+  title:"The National Organising Secretary (Mr Shey Dieudonne Ngwang) with members of Bambili Branch on the occasion of his visit to inspect the stadia and how prepared the branch was for ANC 2023",
+  image:"/e10.png"
+},
+
+
+{
+  id:9,
+  title:"Mr and Mrs NSA of 2023",
+  image:"/e11.png"
+},
+
+
+
+
+
 
   ]
 
@@ -48,16 +92,25 @@ const Hero=()=>{
       <h2 className={styles.title2}>{"`Kentaashe nu Mvungay` (Unity Is Strength)"}</h2>
       </div>
       <p className={styles.desc}>
-        
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
-        blanditiis adipisci minima reiciendis a autem assumenda dolore.
+      : Noni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon.
       </p>
       <div className={styles.buttons}>
         <button className={styles.button}>About Us</button>
         <button className={styles.button}>Contact</button>
       </div>
       <div className={styles.brands}>
-        <Image src="/brands.png" alt="" fill className={styles.brandImg}/>
+        {/* <Image src="/brands.png" alt="" fill className={styles.brandImg}/> */}
+        <div className={styles.box}>
+          <h3 className={styles.describe}>Over <span className={styles.number}>+100</span> Memeebers</h3>
+        </div>
+        <div className={styles.box}>
+          <h3 className={styles.describe}>Over <span className={styles.number}>+9</span>Branches</h3>
+        </div>
+        <div className={styles.box}>
+          <h3 className={styles.describe}>Over <span className={styles.number}>+6</span>Events</h3>
+        </div>
+      
+        
       </div>
     </div>
 
@@ -66,7 +119,7 @@ const Hero=()=>{
       {/* <Image src="/hero.gif" alt="" fill className={styles.heroImg}/> */}
       <Image src={data[currentSlide].image} alt="" fill className={styles.image}/>
       <div className={`${styles.overlay} ${styles.overlay_2}`}>
-        <h3>{data[currentSlide].title}</h3>
+        <h3 className={styles.slideText}>{data[currentSlide].title}</h3>
       </div>
       
     </div>
