@@ -80,7 +80,7 @@ const Executives=()=>{
     return(
         <div className={styles.container}>
             <h1 className={styles.title}>Our Executives</h1>
-            <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque molestiae distinctio nulla?</p>
+            <p className={styles.desc}> we proudly introduce the remarkable individuals who lead our organization. These exceptional professionals bring a wealth of expertise, vision, and dedication to their respective roles, driving our company's growth and success.</p>
 
             <div className={styles.cardConatiner}>
 {Executives.map((executive)=>(

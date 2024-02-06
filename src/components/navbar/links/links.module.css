@@ -27,6 +27,19 @@
       display: block;
       cursor: pointer;
     }
+
+
+    @keyframes slideInFromRight {
+      0% {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
   
     .mobileLinks {
       position: absolute;
@@ -41,8 +54,25 @@
       z-index: 99;
       padding: 12px;
       gap: 12px;
-   
-      
+      opacity: 0;
+      animation: slideInFromRight 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .iconList{
+      display: flex;
+      gap: 12px;
+      border: 0.6px dotted #fff;
+      border-radius: 12px;
+      padding: 12px;
+    }
+    
+
+    .mobileLinks.open {
+      opacity: 1;
+      animation: none;
+    }
+
+    .mobileLinks.close{
+      display:none ;
     }
   }
   

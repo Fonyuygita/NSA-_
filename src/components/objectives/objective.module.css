@@ -65,6 +65,7 @@ position: relative;
 }
 
 .obtext{
+  position: relative;
     display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,6 +79,21 @@ position: relative;
 
 .obtext:hover {
     background-color: #f0f0f0;
+  }
+
+  .icon{
+    position: absolute;
+    right: 12px;
+background-color: var(--btn2);
+padding: 11px;
+border-radius: 50%;
+color: #fff;
+    top: 1%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .objTitle {

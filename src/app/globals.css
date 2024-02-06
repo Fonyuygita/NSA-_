@@ -79,6 +79,9 @@ a {
   .container {
     width: 475px;
   }
+  body{
+    width: 100%;
+  }
 }
 @media (max-width: 475px) {
   .container {

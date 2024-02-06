@@ -8,6 +8,7 @@
   background-color: #072451;
   padding-right:43px;
   padding-left: 33px;
+  /* padding: 8px; */
   z-index: 99;
   position: fixed;
   width: 100%;
@@ -17,6 +18,19 @@
 }
 
 .logo{
-  font-size: 30px;
-  font-weight: bold;
+  /* font-size: 30px;
+  font-weight: bold; */
+  height: 82px;
+  width: 82px;
+  background-color: aliceblue;
+  /* padding: 12px; */
+  border-radius: 50%;
+}
+
+@media screen and (max-width:800px){
+  .imgLogo{
+    width: 30px;
+    height: 30px;
+  }
+
 }

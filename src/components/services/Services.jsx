@@ -11,40 +11,40 @@ import styles from "./services.module.css"
 
 const cards = [
     {
-      image: '/img1.png',
+      image: '/e1.png',
       title: 'Unity',
       text: 'PROMOTING AND SUSTAINING THE UNITY OF NONI'
     },
 
     {
-        image: '/img2.png',
+        image: '/e3.png',
         title: 'Encourage',
         text: 'ENCOURAGING THE ADVANCEMENT OF EDUCATION.',
         subText:"welcome t"
       },
 
       {
-        image: '/img3.png',
+        image: '/e6.png',
         title: 'Sport',
         text: 'REGULAR SPORTING COMPETITION DURING ANNUAL CONVENTIONS.'
       },
 
       {
-        image: '/img1.png',
-        title: 'Unity',
+        image: '/e5.png',
+        title: 'UNITY',
         text: 'PROMOTING AND SUSTAINING THE UNITY OF NONI'
       },
   
       {
-          image: '/img2.png',
-          title: 'Encourage',
+          image: '/e1.png',
+          title: 'ENCOURAGE',
           text: 'ENCOURAGING THE ADVANCEMENT OF EDUCATION.',
           subText:"welcome t"
         },
   
         {
-          image: '/img3.png',
-          title: 'Sport',
+          image: '/e7.png',
+          title: 'SPORT',
           text: 'REGULAR SPORTING COMPETITION DURING ANNUAL CONVENTIONS.'
         }
 
@@ -123,8 +123,8 @@ const Services=()=>{
     return(
         <div className={styles.container}>
             <div className={styles.text}>
-            <h1>Our Services</h1>
-            <p>Lorem ipsum dolor sit amet consectetur s similique beatae adipisci aperiam pariatur nemo.</p>
+            <h1>Our Activities</h1>
+            <p>Our various activities to bring Youthss together.</p>
             </div>
           
             <div className={styles.cardContainer}>

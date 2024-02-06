@@ -41,16 +41,16 @@ const Footer = () => {
       </div>
       <hr className={styles.divider} />
       <div className={styles.lowerSection}>
-        <p>&copy; 2024 Your Company. All rights reserved.</p>
-        <p>Powered by Next.js</p>
+        <p>&copy; 2024 N.S.A All rights reserved.</p>
+        <p>Developoed by GitaFonyuy</p>
         <div className={styles.socialMedia}>
             <Link href="/">
                 <Image src="/facebook.svg" alt='icon' width={20} height={20} />
             </Link>
             <Link href="/">
-                <Image src="/facebook.svg" alt='icon' width={20} height={20} />
+                <Image src="/twitter.svg" alt='icon' width={20} height={20} />
             </Link> <Link href="/">
-                <Image src="/facebook.svg" alt='icon' width={20} height={20} />
+                <Image src="/linkedin.svg" alt='icon' width={20} height={20} />
             </Link>
         </div>
       </div>

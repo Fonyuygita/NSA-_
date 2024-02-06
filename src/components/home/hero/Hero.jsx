@@ -98,20 +98,7 @@ const Hero=()=>{
         <button className={styles.button}>About Us</button>
         <button className={styles.button}>Contact</button>
       </div>
-      <div className={styles.brands}>
-        {/* <Image src="/brands.png" alt="" fill className={styles.brandImg}/> */}
-        <div className={styles.box}>
-          <h3 className={styles.describe}>Over <span className={styles.number}>+100</span> Memeebers</h3>
-        </div>
-        <div className={styles.box}>
-          <h3 className={styles.describe}>Over <span className={styles.number}>+9</span>Branches</h3>
-        </div>
-        <div className={styles.box}>
-          <h3 className={styles.describe}>Over <span className={styles.number}>+6</span>Events</h3>
-        </div>
-      
-        
-      </div>
+     
     </div>
 
     {/*RIGHT HAND SIDE FOR OUR IMAGE */}

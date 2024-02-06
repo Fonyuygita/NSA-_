@@ -21,6 +21,20 @@
     justify-content: space-between;
     gap: 52px;
   }
+  .topLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .topRight{
+    border: 0.3px dotted #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
   .card:hover {
     transform: translateY(-4px);
   }
@@ -32,7 +46,11 @@
     object-fit: cover;
     margin-right: 16px;
   }
-  
+.quoteLogo{
+  position: absolute;
+  top: 12px;
+  right: 5%;
+}  
   .content {
     flex: 1;
   }
@@ -80,14 +98,5 @@
 
  
   
-  .quoteLogo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40px;
-    height: 40px;
-   
-    background-size: cover;
-  }
   
   /* ... existing styles ... */

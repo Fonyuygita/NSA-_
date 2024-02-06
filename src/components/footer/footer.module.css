@@ -54,6 +54,11 @@
   /* Mobile Responsiveness */
   
   @media (max-width: 768px) {
+    .footer{
+        width: 100%;
+        margin-right: 0;
+
+    }
     .upperSection {
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;

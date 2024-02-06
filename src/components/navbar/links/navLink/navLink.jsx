@@ -3,6 +3,7 @@
 import Link from "next/link";
 import styles from "./navLink.module.css";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const NavLink = ({ item }) => {
   const pathName = usePathname();
@@ -15,6 +16,7 @@ const NavLink = ({ item }) => {
       }`}
     >
       {item.title}
+      
     </Link>
   );
 };
