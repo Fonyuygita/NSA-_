@@ -60,7 +60,7 @@ const Links = () => {
 <Image
 className={styles.menuButton}
 src="/cross.svg"
-alt=""
+alt="cross"
 width={30}
 height={30}
 onClick={() => setOpen((prev) => !prev)}
