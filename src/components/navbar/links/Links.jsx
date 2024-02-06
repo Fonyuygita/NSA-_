@@ -4,7 +4,7 @@ import { useState } from "react";
 import styles from "./links.module.css";
 import NavLink from "./navLink/navLink";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 // import { handleLogout } from "@/lib/action";
 
 const links = [
@@ -41,7 +41,7 @@ const socialMedia= [
 
 const Links = () => {
   const [open, setOpen] = useState(false);
-  const pathName = usePathname();
+  // const pathName = usePathname();
 
   // TEMPORARY
   // const session = true;
@@ -85,7 +85,7 @@ onClick={() => setOpen((prev) => !prev)}
           ))}
           <div className={styles.iconList}>
           {socialMedia.map((icon)=>(
-            <Image src={icon.icon} alt="text" width={20} height={20}/>
+            <Image src={icon.icon} alt="text" width={20} height={20} key={icon.name}/>
           ))}
           </div>
         </div>

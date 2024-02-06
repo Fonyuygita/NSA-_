@@ -45,7 +45,7 @@ const objectiveData=[
     </div>
 <div className={styles.oText}>
         {objectiveData.map((data)=>(
- <div className={styles.obtext}>
+ <div className={styles.obtext} key={data.title}>
     {/* <Image src="/themes.svg" alt="logo" width={20} height={20} className={styles.icon}/> */}
     <div className={styles.icon}>
         <h className={styles.number}>{data.id}</h>

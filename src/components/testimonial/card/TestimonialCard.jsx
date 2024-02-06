@@ -11,7 +11,7 @@ const TestimonialCard = ({ name, position, company, message, picture }) => {
     
         <div className={styles.top}>
             <div className={styles.topLeft}>
-      <img className={styles.picture} src={picture} alt={name} />
+      <Image className={styles.picture} src={picture} alt={name} objectFit='cover' width={100} height={100} />
 <h2 className={styles.name}>{name}</h2>
 
             </div>
