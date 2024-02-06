@@ -86,5 +86,25 @@ a {
 @media (max-width: 475px) {
   .container {
     width: 380px;
+    overflow-x: none;
   }
+}
+  
+@media (max-width: 375px) {
+  .container {
+    width: 380px;
+    overflow-x: none;
+
+  }
+body{
+  overflow-x: hidden;
+}
+.down{
+  background-color: var(--btn2);
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+  
 }
