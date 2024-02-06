@@ -46,7 +46,7 @@
       top: 100px;
       right: 0;
       width: 60%;
-      height: calc(100vh - 500px);
+      height: calc(100vh - 100px);
       background-color: #072451;
       display: flex;
       flex-direction: column;
