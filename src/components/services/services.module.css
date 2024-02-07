@@ -3,6 +3,8 @@
     /* height: 100vh; */
     padding: 12px;
     /* margin-bottom: 2rem; */
+    width: 100%;
+    margin: 0 auto;
     
 }
 .text{

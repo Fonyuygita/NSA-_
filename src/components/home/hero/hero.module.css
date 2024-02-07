@@ -2,13 +2,13 @@
     display: flex;
     gap: 100px;
     margin-top: 7rem;
-
-  
+    width: 100%;
+ 
  
   }
   
   .textContainer {
-    flex: 1;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -81,8 +81,9 @@
   
   .imgContainer {
     margin-top: 2rem;
-    flex: 1;
+    width: 50%;
     position: relative;
+    height: 340px;
 
   }
 
@@ -118,12 +119,25 @@
       flex-direction: column;
       text-align: center;
       gap: 23px;
-      height: 100vh;
+      justify-content: center;
+      /* height: 100vh; */
       flex-direction: column-reverse;
       overflow: hidden;
       
      
     }
+.textContainer{
+  width: 100%;
+}
+
+.imgContainer {
+  margin-top: 2rem;
+  width: 100%;
+  height: 360px;
+  margin: 0 auto;
+  
+
+}
 .brand{
   margin: 0 auto;
 }
@@ -136,7 +150,7 @@
     .image{
       margin: 0 auto;
       width: 90%;
-      height: 200px;
+      height: 300px;
       background-color: red;
     }
   
@@ -154,6 +168,20 @@
       width: 90%;
     margin: 0 auto;
 
+    }
+  }
+
+  @media (max-width: 368px){
+
+    .container{
+      justify-content: center;
+      align-items: center;
+    }
+    .imgContainer{
+      width: 90%;
+      height: 270px;
+      margin: 0 auto;
+      margin-left: 12px;
     }
   }
   
