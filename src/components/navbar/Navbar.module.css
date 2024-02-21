@@ -20,11 +20,16 @@
 .logo{
   /* font-size: 30px;
   font-weight: bold; */
-  height: 82px;
-  width: 82px;
+  height: 42px;
+  width: 42px;
   background-color: aliceblue;
   /* padding: 12px; */
   border-radius: 50%;
+}
+.imgLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width:800px){

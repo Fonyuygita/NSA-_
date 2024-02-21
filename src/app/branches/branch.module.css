@@ -1,8 +1,108 @@
 .container{
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     align-items: center;
     color: black;
     justify-content: center;
     flex-direction: column;
+    margin-top: 8rem;
+}
+.boxContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items:  left;
+    justify-content: center;
+    background-color:#f1ecec;
+    padding: 23px;
+    border-bottom: 5px solid var(--btn2);
+    cursor: pointer;
+    gap: 12px;
+}
+
+.btn{
+  display: flex; 
+  justify-content: space-between;
+    gap: 20px;
+    background-color: var(--btn2);
+    color: #fff;
+    width: 40%;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .btn{
+    padding: 10px;
+    min-width: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+
+ 
+
+.branchName{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    
+}
+
+
+
+@media (max-width: 768px){
+
+    .container{
+        margin-top: 7rem;
+    }
+
+    .title{
+        font-size: 18px;
+    }
+
+    .boxContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media (max-width: 468px){
+    .container{
+    margin-top: 7rem;
+    padding-top: 3rem;
+    }
+    
+    .header{
+        font-size: 17px;
+    }
+    .bText{
+        font-size: 14px;
+
+    }
+    .btn{
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 348px){
+    .header{
+        font-size: 17px;
+    }
+    .bText{
+        font-size: 14px;
+
+    }
+    .btn{
+        font-size: 9px;
+    }
 }
