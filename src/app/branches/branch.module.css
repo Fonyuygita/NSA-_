@@ -22,7 +22,8 @@
     flex-direction: column;
     align-items:  left;
     justify-content: center;
-    background-color:#f1ecec;
+    background-color: #f2f2f2;
+ 
     padding: 23px;
     border-bottom: 5px solid var(--btn2);
     cursor: pointer;
