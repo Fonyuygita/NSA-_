@@ -1,109 +1,65 @@
-.container{
-    display: flex;
-    /* height: 100vh; */
-    align-items: center;
-    color: black;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 8rem;
-}
-.boxContainer{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    flex-wrap: wrap;
-    gap: 22px;
-}
+/* Import the CSS modules */
 
-.box{
+/* Define the styles for the container element */
+.container {
     display: flex;
     flex-direction: column;
-    align-items:  left;
+  margin-top: 7rem;
     justify-content: center;
-    background-color: #f2f2f2;
- 
-    padding: 23px;
-    border-bottom: 5px solid var(--btn2);
-    cursor: pointer;
-    gap: 12px;
-}
-
-.btn{
-  display: flex; 
-  justify-content: space-between;
-    gap: 20px;
-    background-color: var(--btn2);
-    color: #fff;
-    width: 40%;
-    text-align: center;
-    font-size: 15px;
-  }
+    align-items: center;
   
-  .btn{
-    padding: 10px;
-    min-width: 40px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
+  padding: 20px; /* Add some padding */
+}
+
+
+
+/* Define the styles for the title element */
+.title {
+  font-size: 36px; /* Set a large font size */
+  font-weight: bold; /* Set a bold font weight */
+  text-align: center; /* Center the text */
+  margin-bottom: 20px; /* Add some bottom margin */
+  color: #111;
+}
+
+.desc{
+  text-align: center;
+  color: #333;
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+font-size: 18px;
+  
+}
+
+/* Define the styles for the grid element */
+.grid {
+display: flex;
+/* flex-direction: column; */
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 12px;
+}
+
+/* Define the media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  /* Adjust the grid columns for smaller screens */
+  .grid {
+    /* grid-template-columns: repeat(1, 1fr); */
+     /* Divide the grid into two equal columns */
+     /* gap: 33px;
+      */
+
+      flex-direction: column;
   }
 
- 
+  .title{
+    font-size: 18px;
+  }
 
-.branchName{
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-    
-}
-
-
-
-@media (max-width: 768px){
-
-    .container{
-        margin-top: 7rem;
-    }
-
-    .title{
-        font-size: 18px;
-    }
-
-    .boxContainer{
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-}
-
-@media (max-width: 468px){
-    .container{
-    margin-top: 7rem;
-    padding-top: 3rem;
-    }
-    
-    .header{
-        font-size: 17px;
-    }
-    .bText{
-        font-size: 14px;
-
-    }
-    .btn{
-        font-size: 14px;
-    }
-}
-
-
-@media (max-width: 348px){
-    .header{
-        font-size: 17px;
-    }
-    .bText{
-        font-size: 14px;
-
-    }
-    .btn{
-        font-size: 9px;
-    }
+  .desc{
+    font-size: 15px;
+    width: 90%;
+  }
 }
