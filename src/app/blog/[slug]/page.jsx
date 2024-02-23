@@ -2,8 +2,18 @@ import React from 'react';
 
 import Image from 'next/image';
 import styles from "./singlePage.module.css"
+import { isConnectedToDB } from '@/lib/db';
+
 
 const PostPage = () => {
+  // let connected=isConnectedToDB()
+  if(isConnectedToDB()){
+    console.log(`connected`)
+  }
+
+  else{
+    console.log("Not conected")
+  }
   return (
     <div className={styles.container}>
       <Image

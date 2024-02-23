@@ -1,13 +1,14 @@
 import Image from "next/image"
 import styles from "./postCard.module.css"
 import Link from "next/link"
+import { getPosts } from "@/lib/data"
 
 
 
 
 
 
-const PostCard=()=>{
+const PostCard=async()=>{
 const post=[
     {
         title:"Wrlcome post",
@@ -42,6 +43,10 @@ const post=[
         date:"12-23-24",
     },
 ]
+
+
+const data=await getPosts();
+console.log(data);
     
     return(
         <div className={styles.container}>
