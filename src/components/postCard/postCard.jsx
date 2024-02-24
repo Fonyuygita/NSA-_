@@ -51,7 +51,7 @@ console.log(data);
     return(
         <div className={styles.container}>
 
-            {post.map((p)=>(
+            {data.map((p)=>(
              <div className={styles.post}>
              <div className={styles.top} key={p.title}>
                  <div className={styles.imgContainer}>

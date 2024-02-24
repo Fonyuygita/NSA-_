@@ -1,0 +1,14 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    margin-top: 12rem;
+    background-color: red;
+    font-size:4rem;
+    cursor: pointer;
+}
+
