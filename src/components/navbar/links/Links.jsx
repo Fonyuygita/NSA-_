@@ -16,14 +16,7 @@ const links = [
     path: "/about",
   },
 
-  {
-    title: "Branches",
-    path: "/branches",
-  },
-  {
-    title: "Contact",
-    path: "/contact",
-  },
+  
   {
     title: "Blog",
     path: "/blog",
@@ -34,8 +27,8 @@ const Links = () => {
   const [open, setOpen] = useState(false);
 
   // TEMPORARY
-  // const session = true;
-  // const isAdmin = true;
+  const session = true;
+  const isAdmin = true;
 
   return (
     <div className={styles.container}>
@@ -43,6 +36,17 @@ const Links = () => {
         {links.map((link) => (
           <NavLink item={link} key={link.title} />
         ))}
+
+        {session ? (
+          <>
+          {isAdmin && <NavLink item={{title:"Admin", path:"/admin"}}/>}
+          <form action="">
+          <button className={styles.logout}>Logout</button>
+          </form>
+          </>
+        ) : (
+          <NavLink item={{title:"Login", path:"/login"}}/>
+        )}
        
       </div>
       <Image
@@ -58,8 +62,19 @@ const Links = () => {
           {links.map((link) => (
             <NavLink item={link} key={link.title} />
           ))}
+          {session ? (
+            <>
+            {isAdmin && <NavLink item={{title:"Admin", path:"/admin"}}/>}
+            <form action="">
+            <button className={styles.logout}>Logout</button>
+            </form>
+            </>
+          ) : (
+            <NavLink item={{title:"Login", path:"/login"}}/>
+          )}
         </div>
       )}
+
     </div>
   );
 };
