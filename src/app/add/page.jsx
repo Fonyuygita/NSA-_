@@ -5,12 +5,7 @@ import styles from "./add.module.css"
 
 const textPage=()=>{
  
-    // const innerActions=async()=>{
-
-    //     "use server"
-
-    //     console.log("waoh! it works");
-    // }
+ 
 
     return(
 

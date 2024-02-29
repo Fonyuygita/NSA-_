@@ -3,6 +3,19 @@ import styles from "./postCard.module.css"
 import Link from "next/link"
 import { getPosts } from "@/lib/data"
 
+// function to get post
+
+// const getPosts=async()=>{
+
+//     const posts=await fetch("http://localhost:3000/api/blog", {next:{revalidate:3000}});
+// if(!posts.ok){
+//     // error here
+// }
+
+// return posts.json();
+
+// }
+
 
 
 
@@ -52,7 +65,7 @@ console.log(data);
         <div className={styles.container}>
 
             {data.map((p)=>(
-             <div className={styles.post}>
+             <div className={styles.post} key={p.id}>
              <div className={styles.top} key={p.title}>
                  <div className={styles.imgContainer}>
                  <Image src={p.img} alt="post image" fill className={styles.img} />

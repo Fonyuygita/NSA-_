@@ -43,7 +43,7 @@ const Links = () => {
           <form action="">
           <button className={styles.logout}>Logout</button>
           </form>
-          </>
+          </>ru
         ) : (
           <NavLink item={{title:"Login", path:"/login"}}/>
         )}
