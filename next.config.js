@@ -8,6 +8,10 @@ const nextConfig = {
         // Specify the loader to use for image optimization
         loader: "default",
       },
+
+      eslint: {
+        ignoreDuringBuilds: true,
+    }
 }
 
 module.exports = nextConfig

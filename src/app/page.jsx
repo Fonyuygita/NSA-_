@@ -4,7 +4,7 @@ import Hero from "@/components/home/hero/Hero";
 import Services from "@/components/services/Services";
 import Executives from "@/components/executive/Executive";
 import Objectives from "@/components/objectives/Objectives";
-import TestimonialsPage from "@/components/testimonial/Testimonial";
+import TestimonialsPage from "@/components/testimonial/Testimonial.jsx";
 
 const Home = () => {
   return (
