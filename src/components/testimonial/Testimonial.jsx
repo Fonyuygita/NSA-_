@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import {TestimonialData} from "./testimonial"
-import styles from "./Testimonial.module.css"
+import styles from "./testimonial.module.css"
 import Image from 'next/image';
 
 
