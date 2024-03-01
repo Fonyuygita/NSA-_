@@ -26,6 +26,7 @@
     margin: 0 auto;
     font-weight: bolder;
     color: #fff;
+    font-size: 17px;
     
   }
 
@@ -159,11 +160,18 @@
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .title {
-      font-size: 44px;
+      font-size: 30px;
     }
-  
+  .title2{
+    font-size: 25px;
+    padding-top: 1rem;
+  }
+
+  .desc{
+    font-size: 19px;
+  }
     .brands{
       width: 90%;
     margin: 0 auto;

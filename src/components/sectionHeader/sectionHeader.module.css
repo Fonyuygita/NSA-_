@@ -1,0 +1,53 @@
+.sectionHeader{
+    margin: 4rem 0 7rem;
+    padding: 3rem 0;
+    text-align: center;
+    background-color: var(--btn2);
+    -webkit-box-shadow: -2px 7px 11px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: -2px 7px 11px 0px rgba(0,0,0,0.63);
+    box-shadow: -2px 7px 11px 0px rgba(0,0,0,0.63);
+    transition: var(--transition);
+        opacity: 0;
+        animation: identifier 1s ease-in forwards;
+}
+
+@keyframes identifier{
+    to{
+        opacity: 1;
+    }
+}
+
+
+.sectionHeader h3{
+    color: #999;
+    margin-bottom: 0.5rem;
+}
+
+.sectionHeader p{
+    min-width: 52rem;
+    margin-inline: auto;
+    color: #fff;
+}
+
+@media screen and (max-width:600px) {
+    .sectionHeader{
+        margin-bottom: 2rem;
+        padding: 20px;
+        
+        
+    }
+
+    
+@keyframes identifier{
+    to{
+        opacity: 1;
+    }
+}
+
+
+    .sectionHeader p{
+        min-width: var(--container-width-md);
+        font-size: small;
+    }
+
+}

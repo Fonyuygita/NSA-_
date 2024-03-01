@@ -1,45 +1,29 @@
-// pages/contact.js
-import React from "react";
-import Image from "next/image";
-import styles from "./contact.module.css";
+import Link from "next/link"
+import { MdOutlineEmail } from "react-icons/md"
+import {BsWhatsapp} from "react-icons/bs"
+import {RiMessengerLine} from "react-icons/ri"
+import styles from "./contact.module.css"
+import SectionHeader from "@/components/sectionHeader/sectionHeader"
 
 const contactPage=()=>{
-  return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>Contact Us</h1>
-      <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, cum repellat? Totam.</p>
-      <div className={styles.contactBox}>
-        <div className={styles.form}>
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your name" />
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Your email address"
-          />
-          <label htmlFor="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            placeholder="Write something.."
-          ></textarea>
-          <button type="submit">Send</button>
-        </div>
-        <div className={styles.image}>
-          <Image
-            src="/contactUs.png"
-            alt="A person holding a phone with a contact icon"
-            width={200}
-            height={300}
-            objectFit="cover"
-          />
-        </div>
-      </div>
-    </div>
-  );
-}
+    return(
+       <section className={styles.contact}>
+        <SectionHeader title="Get in Touch" description="Contact me through any means, as shown below"/>
+        <div className={`container ${styles.contactWrapper}`}>
+            <Link href="mailto:fonyyuyjudegita@gmail.com" className={styles.contactOption} target="_blank " rel="noopener noreferrror">
+                <MdOutlineEmail className={styles.contactIcon}/>
+            </Link>
 
+            <Link href="mailto:fonyyuyjudegita@gmail.com" className={styles.contactOption} target="_blank " rel="noopener noreferrror">
+                <RiMessengerLine className={styles.contactIcon}/>
+            </Link>
+
+            <Link href="https://wa.me/+237672792563" className={styles.contactOption} target="_blank " rel="noopener noreferrror">
+                <BsWhatsapp className={styles.contactIcon}/>
+            </Link>
+        </div>
+       </section>
+    )
+}
 
 export default contactPage

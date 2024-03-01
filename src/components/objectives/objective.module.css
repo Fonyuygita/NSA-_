@@ -1,138 +1,51 @@
 .container{
-    /* background: red; */
-    height: max-content;
-    display: flex;
-   flex-direction: column;
-   color: #000;
-
-}
-
-.description{
-
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    text-align: center;
-    color: #222;
-    width: 60%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-
-}
-
-.description p{
-    font-size: small;
-    margin-bottom: 2rem;
-}
-
-.description h1{
-    color: #000;
-    font-weight: bolder;
-    font-size: 3rem;
-    text-align: center;
-   
-}
-
-
-.objContainer{
-    display: flex;
-    gap: 32px;
-    align-items: center;
-    justify-content: center;
-   
-}
-
-
-.imgContainer{
-    flex: 1;
-    background-color: yellow;
-position: relative;
-   
-}
-
-.imgBox{
-    width: 300px;
-    height: 300px;
- 
-}
-
-.oText{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    justify-items: center;
-}
-
-.obtext{
-  position: relative;
-    display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 3rem;
+  }
+  
+  .service{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 2rem 3rem 2rem;
+      opacity: 0;
+      animation:  identifier 1s ease-in forwards;
+  
+  }
+  
+  @keyframes identifier{
+      to{
+          opacity: 1;
+      }
+  }
+  
+  .service span{
+  background: var(--btn2);
+  width: 3rem;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  border-bottom: 2px solid var(--btn2);
-}
-
-
-.obtext:hover {
-    background-color: #f0f0f0;
-  }
-
-  .icon{
-    position: absolute;
-    right: 12px;
-background-color: var(--btn2);
-padding: 11px;
-border-radius: 50%;
-color: #fff;
-    top: 1%;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  color: var(--color-gray-0);
+  font-size: 1.2rem;
+  border-radius: 50%;
   }
   
-  .objTitle {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+  .service h5{
+      margin: 2.5rem 0 0.8rem;
+  
   }
   
-  .objDesc {
-    font-size: 0.9rem;
-    text-align: center;
+  .service p{
+      opacity: 0.85;
   }
   
-  /* Mobile responsiveness */
-  @media screen and (max-width: 600px) {
-    .oText {
-      grid-template-columns: 1fr;
-    }
-    .description{
-        width: 80%;
-        
-    }
-    .description p{
-        font-size: small;
-        margin-bottom: 1rem;
-    }
-
-    .description h1{
-        font-size: 2rem;
-    
-    }
-    
-  }
-
-  @media screen and (max-width: 1000px) {
-    .oText {
-      grid-template-columns: 1fr;
-    }
-.imgContainer{
-    display: none;
-}
-    
+  @media screen and (max-width:600px){
+      .container{
+          gap: 1.2rem;
+          width: 100%;
+          margin: 0 auto;
+      }
   }

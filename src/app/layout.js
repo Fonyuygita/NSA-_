@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+      <main>
       <Navbar/>
         <div className="container">
         {children}
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
         <div className="down">
                 <Footer/>
                 </div>
-
+                </main>
         </body>
     </html>
   )
