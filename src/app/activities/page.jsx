@@ -5,7 +5,7 @@ import CategoryButton from './CategoryButton'
 import Activity from '@/components/activity/Activity'
 import SectionHeader from '@/components/sectionHeader/sectionHeader'
 
-const activitiesPage=()=>{
+const activityPage=()=>{
 
     const [projects, setProjects]=useState(Data)
     // console.log(projects);
@@ -43,4 +43,4 @@ return;
     )
 }
 
-export default activitiesPage
+export default activityPage
