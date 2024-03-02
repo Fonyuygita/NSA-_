@@ -2,9 +2,9 @@
 export const branches = [
     {
       id: 1,
-      name: 'Branch A',
+      name: 'Youonde Branch',
       description: 'This is the description of branch A',
-      image: '/contactUs.png',
+      image: '/ynde.png',
       executive: {
         name: 'Alice',
         title: 'CEO of Branch A',
@@ -21,9 +21,9 @@ export const branches = [
     },
     {
       id: 2,
-      name: 'Branch B',
+      name: 'Douala Branch ',
       description: 'This is the description of branch B',
-      image: '/contactPage.png',
+      image: '/douala.jpg',
       executive: {
         name: 'Bob',
         title: 'CEO of Branch B',
@@ -40,9 +40,9 @@ export const branches = [
     },
     {
       id: 3,
-      name: 'Branch C',
+      name: 'Bamenda Branch',
       description: 'This is the description of branch C',
-      image: '/contactUs.png',
+      image: '/bamenda.png',
       executive: {
         name: 'Charlie',
         title: 'CEO of Branch C',
@@ -56,9 +56,9 @@ export const branches = [
 
     {
       id: 4,
-      name: 'Branch D',
+      name: 'Bambili Branch',
       description: 'This is the description of branch D',
-      image: '/contactUs.png',
+      image: '/bambili.png',
       executive: {
         name: 'Charlie',
         title: 'CEO of Branch C',

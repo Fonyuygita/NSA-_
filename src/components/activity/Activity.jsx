@@ -2,12 +2,12 @@ import React from 'react'
 import Card from '../card/Card'
 import Image from 'next/image'
 import styles from "../../app/activities/activity.module.css"
-const Activity = ({projects}) => {
+const Activity = ({activities}) => {
   return (
-    <div className={styles.projects}>
+    <div className={styles.activities}>
     {
-        projects.map(({image,  title, text})=>
-        <Card key={title} className={styles.project}>
+        activities.map(({image,  title, text})=>
+        <Card key={title} className={styles.activity}>
         <div className={styles.image}>
         <Image src={image} alt="" width={300} height={250}/>
         </div>

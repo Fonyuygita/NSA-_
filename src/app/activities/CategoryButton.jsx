@@ -19,7 +19,7 @@ const [activeCategory, setActivecategory]=useState("all");
   return (
    <div className={styles.categories}>
 
-   {categories.map(category=><button key={category} className={`btn ${styles.cattn} ${activeCategory == category ? "primary" : ""}`} onClick={()=>handleChangeCategory(category)}>{category}</button>)}
+   {categories.map(category=><button key={category} className={`btn ${styles.catBtn} ${activeCategory == category ? "primary" : ""}`} onClick={()=>handleChangeCategory(category)}>{category}</button>)}
    </div>
   )
 }

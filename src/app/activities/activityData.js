@@ -21,20 +21,20 @@ export const Data= [
 
       {
         image: '/e5.png',
-        title: 'UNITY',
+        title: 'Unity',
         text: 'PROMOTING AND SUSTAINING THE UNITY OF NONI'
       },
   
       {
           image: '/e1.png',
-          title: 'ENCOURAGE',
+          title: 'Encourage',
           text: 'ENCOURAGING THE ADVANCEMENT OF EDUCATION.',
           subText:"welcome t"
         },
   
         {
           image: '/e7.png',
-          title: 'SPORT',
+          title: 'Sport',
           text: 'REGULAR SPORTING COMPETITION DURING ANNUAL CONVENTIONS.'
         }
 
