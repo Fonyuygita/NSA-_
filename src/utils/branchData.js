@@ -1,3 +1,6 @@
+import {BsWhatsapp, BsFacebook, BsTwitterX, BsLinkedin} from "react-icons/bs"
+
+
 // Create an array of objects to store branches and their information
 export const branches = [
     {
@@ -7,16 +10,17 @@ export const branches = [
       image: '/ynde.png',
       executive: {
         name: 'Alice',
-        title: 'CEO of Branch A',
+        title: 'President',
         info: 'This is some info about Alice',
         social: {
           twitter: 'https://twitter.com/alice',
           linkedin: 'https://linkedin.com/alice',
-          lImage:"/linkedin.svg",
-          fImage:"/facebook.svg"
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
         },
         image:"/a1.png",
-        bDesc:"oni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the Nort",
+        Email:"branch@gmail.com", 
       },
     },
     {
@@ -26,16 +30,17 @@ export const branches = [
       image: '/douala.jpg',
       executive: {
         name: 'Bob',
-        title: 'CEO of Branch B',
+        title: 'President',
         info: 'This is some info about Bob',
         social: {
           twitter: 'https://twitter.com/bob',
           linkedin: 'https://linkedin.com/bob',
-          lImage:"/linkedin.svg",
-          fImage:"/facebook.svg"
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
         },
         image:"/e3.png",
-        bDesc:"oni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West", 
+        Email:"branch@gmail.com", 
       },
     },
     {
@@ -66,11 +71,12 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
-          lImage:"/linkedin.svg",
-          fImage:"/facebook.svg"
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
         },
         image:"/e2.png",
-        bDesc:"oni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West",
+        Email:"branch@gmail.com", 
       },
     },
 
@@ -86,11 +92,12 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
-          lImage:"/linkedin.svg",
-          fImage:"/facebook.svg"
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
         },
         image:"/a1.png",
-        bDesc:"oni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North",
+        Email:"branch@gmail.com", 
       },
     },
 
@@ -107,11 +114,12 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
-          lImage:"/linkedin.svg",
-          fImage:"/facebook.svg"
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
         },
         image:"/e1.png",
-        bDesc:"oni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West", 
+        Email:"branch@gmail.com", 
       },
     },
   ];

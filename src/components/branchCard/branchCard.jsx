@@ -2,7 +2,7 @@
 
 // Import React and Next.js components
 import React, { useState } from 'react';
-import Head from 'next/head';
+
 import Link from 'next/link';
 
 
@@ -57,15 +57,18 @@ const BranchCard = ({ branch }) => {
           <div className={styles.cardSocial}>
             {/* Use Link component to create links to social media handles */}
             <Link href={branch.executive.social.twitter} className={styles.cardLink}>
-            <Image src={branch.executive.social.fImage} alt='media' width={30} height={30} className={styles.img}/>
+            {branch.executive.social.fImage} 
             </Link>
             <Link href={branch.executive.social.linkedin} className={styles.cardLink}>
-            <Image src={branch.executive.social.lImage} alt='media' width={30} height={30} className={styles.img}/>
-              
+            {branch.executive.social.lImage} 
+            </Link>
+
+            <Link href={branch.executive.social.linkedin} className={styles.cardLink}>
+            {branch.executive.social.wImage} 
             </Link>
           </div>
           <div className={styles.eDesc}>
-            <p className={styles.bDesc}>{branch.executive.bDesc}</p>
+            <p className={styles.bDesc}>{branch.executive.Email}</p>
           </div>
         </div>
 
