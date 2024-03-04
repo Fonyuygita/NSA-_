@@ -14,13 +14,13 @@ export const { handlers:{GET, POST}, auth, signIn, signOut } = NextAuth({ provid
 callbacks:{
     async signIn({user, account, profile}){
         console.log(user, account, profile);
-        if(account.providers==="github"){
+        if(account.provider==="github"){
             isConnectedToDB()
             try {
 // check if users email doesn exisst in the db and create a new one
 
 // check if sign in user exist in our database
-const user=await User.findOne({eemail:profile.email});
+const user=await User.findOne({email:profile.email});
 
 // if user doesn exist do.....
 
@@ -29,7 +29,7 @@ if(!user){
     const newUser=new User({
         username:profile.login,
         email:profile.email,
-        image:profile.avatar_url,
+        img:profile.avatar_url,
 // isAdmin was a user, so need including 
     });
     await newUser.save();
