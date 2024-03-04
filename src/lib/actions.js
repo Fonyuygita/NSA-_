@@ -1,9 +1,13 @@
+"use server"
+
+
 import { revalidatePath } from "next/cache";
 import { isConnectedToDB } from "./db";
 import { Post } from "./models";
+import { signIn, signOut } from "./auth";
 
 export const sayHello=async()=>{
-    "use server"
+
     // what do I have to do, to maje this function to be server action function, that is it can pderform server functionality stuffs
     // it ahould be an async function
     console.log("my name is finyuy gita");
@@ -13,7 +17,7 @@ export const sayHello=async()=>{
 
 export const addUser=async(formData)=>{
 
-    "use server"
+    
     // get data from our forms
 
     const {name, email, password}=Object.fromEntries(formData)
@@ -25,7 +29,7 @@ export const addUser=async(formData)=>{
 
 // add A post
 export const addPost=async(formData)=>{
-    "use server"
+   
 
     const {title, desc, slug, userId}=Object.fromEntries(formData);
     
@@ -60,7 +64,7 @@ revalidatePath("/blog")
 
 export const deletePost=async(formData)=>{
 
-"use server"
+
 const {id}=Object.fromEntries(formData);
 try{
     isConnectedToDB();
@@ -76,4 +80,20 @@ catch(error){
 }
 
 
+}
+
+
+
+//  AUTH ENTICATION STUFFS
+
+export const handleLogin=async()=>{
+
+    await signIn("github")
+}
+
+// handle logout
+
+export const handleLogout=async()=>{
+
+await signOut()
 }

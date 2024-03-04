@@ -3,6 +3,7 @@
 
 import { Post, User } from "./models";
 import { isConnectedToDB } from "./db";
+import { signIn } from "./auth";
 
 // GET MULTIPLE POSTS
 export const getPosts= async ()=>{
@@ -19,7 +20,7 @@ export const getPosts= async ()=>{
 
     catch(error){
         console.log("error occured, while getting data from the database");
-        new Error(err)
+        new Error(error)
     }
 
 }
@@ -33,6 +34,7 @@ export const getPost=(slug)=>{
         // const post=Post.find({slug: slug})
         // saame since, we are using the samename
         const post=Post.find({slug});
+        return post;
 
     }
     catch(error){
@@ -55,7 +57,7 @@ export const getUsers=async()=>{
         new Error(error);
     }
 }
-// FETCH A SINGLE USER:
+//  FETCH A SINGLE USER:
 
 export const getUser=async(id)=>{
 
@@ -71,3 +73,14 @@ export const getUser=async(id)=>{
     }
     
 }
+
+
+
+// handle auths
+
+// export const login=async()=>{
+// "use server"
+// await signIn("github");
+
+
+// }
