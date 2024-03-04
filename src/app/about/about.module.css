@@ -1,125 +1,129 @@
-.container {
-    margin-top: 8rem;
-     margin-top: 9rem;
-   
-    padding: 20px; 
-    display: flex;
+.about{
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap: 10%;
+}
+
+.image{
+  height: 28rem;
+  overflow: hidden;
+  object-fit: fill;
+  display: grid;
+  width: 24rem;
+  place-items: center;
+   opacity: 0;
+   animation: identifier 2s ease forwards;
+   border-radius: 60px;
+}
+
+.aboutContent p{
+
+  margin-top: 0.8rem;
+  
+}
+
+
+
+@keyframes identifier{
+  to{
+      opacity: 1;
+  }
+
+}
+
+.aboutCta{
+  display: inline-block;
+  margin-top: 2.5rem;
+}
+
+.history{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  flex-direction: column;
+  gap: 1.4rem;
+  width: 100%;
+}
+.historyContent{
+  color: #444;
+  font-weight: 700;
+  font-size: 16px;
+}
+.secondParagraph{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.secondParaDesc{
+  flex: 3;
+  color: #444;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.nsaLogo{
+  flex: 1;
+  background-color: #fff;
+  padding: 14px;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  position: relative;
+  animation: bounce 2s linear infinite;
+}
+
+
+/* animate logo */
+
+@keyframes bounce {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 30px;
+    top: 12px;
+    transform: scaleX(1.2) scaleY(0.8);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.float{
+  width: 200px;
+  height: 200px;
+
+}
+
+@media screen and (max-width:600px){
+  .container{
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      align-items: center;
+      justify-content: center;
+  }
+  .image{
+      margin: 0 auto;
+      width: 20rem;
+  }
+  .secondParagraph{
     flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-   gap: 23px;
-    color: #444;
-    
   }
+}
 
-  .aboutContainer{
-    display: flex;
-    gap: 3rem;
-    justify-content: space-between;
-    align-items: center;
-    /* height: 100vh; */
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  
-  .textRight{
-    flex: 1;
-  }
-
-  .textLeft{
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-  
-  .heading {
-    font-size: 24px;
-    font-weight: bold;
-    /* margin-bottom: 20px; */
-  }
-  
-  .text {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-  }
-  
-  .image {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  
-  .transition {
-    transition: all 0.3s ease;
-  }
-  
-
-  
-  .buttons{
-    display: flex;
-   align-items: center;
-   justify-content: center;
-  }
-  
-  .button{
-    padding: 15px;
-    min-width: 220px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  .button:first-child{
-    background-color: #072451;
-    color: var(--text);
-  }
-
-  
-  
-  /* Add more styles as needed */
-
-
-  @media (max-width: 768px) {
-    .aboutContainer {
-      flex-direction: column-reverse;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .mapContainer{
-        width: 100%;
-        max-width: 0 auto;
-     
-    }
-
-    .mapBoc{
-        width: 100%;
-    }
-
-    .container{
-        width: 100%;
-    }
-
-    .heading {
-text-align: center;
-      }
-
-      .imgContainer{
-        background-color: none;
-        border: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 90%;
-        margin: 0 auto;
-      }
-
-    .buttons{
-        justify-content: center;
-      }
-  
-    
-  }

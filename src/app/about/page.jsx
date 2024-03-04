@@ -1,47 +1,55 @@
-import Image from "next/image";
+import Image from "next/image"
+
 import styles from "./about.module.css"
+import me from "../../../public/nsa-students.png"
+import Link from "next/link"
+import SectionHeader from "@/components/sectionHeader/sectionHeader"
+import Faqs from "@/components/faqs/Faqs"
 
-const aboutPage = () => {
-  return (
-    <div className={styles.container}>
-      <h1 className={styles.heading}>Noni Students’ Association</h1>
-      <div className={styles.aboutContainer}>
-      <div className={styles.textLeft}>
-      <p className={styles.text}>
-        Noni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon. Created in December 1960 in Djottin Noni, the Association had as pioneer president Hon. Konglimnyuy Joseph Nkwi and as current General President Mr. Ndiyun Robert Kosho. The association operates through a federal system, with the General Assembly as the main decision-making organ, and the General Executive Bureau vested with the powers to oversee the smooth functioning of the association.
-      </p>
+const aboutPage=()=>{
+    return(
+       <section className={styles.about}>
+        <SectionHeader title="About Us" description="We are ready to serve all your needs without hessitation"/>
+        <div className={`container ${styles.container}`}>
+    <article className={styles.image}>
+        <Image src={me} alt="aboout gita" />
+    </article>
+    <article className={styles.aboutContent}>
+        <h4>About NSA</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, at libero rem cupiditate molestiae accusamus. Maiores officia sequi deleniti corporis tempore, provident ea. Fuga porro commodi, dolores possimus delectus officiis!</p>
 
-      <p className={styles.text}>
-        At the lower level, there exist semi-autonomous branches spread across the principal villages of Noni, the major cities of Cameroon, and in the diaspora. Each branch has its general assembly and executive bureau under the leadership of a branch president.
-      </p>
-      <div className={styles.buttons}>
-        <button className={styles.button}>Read More</button>
-        {/* <button className={styles.button}>Contact</button> */}
-      </div>
-      </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ad maiores dolorum reiciendis maxime inventore necessitatibus nesciunt quidem alias consequuntur!</p>
 
-      <div className={styles.textRight}>
-<div className={styles.imgContainer}>
-        <Image src="/img2.png" alt="image" width={360} height={250} objectFit="cover" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quod velit suscipit aliquam, dolorem illo harum dignissimos ex quam nobis rerum nostrum. Fuga architecto quaerat consequatur culpa sunt maiores amet perspiciatis aspernatur odit recusandae, similique quod fugit nam doloribus corrupti.</p>
+        <Link href="../assets/cv.pdf" className={`btn primary ${styles.sboutCv}`} download rel="noopener noreferrer">Support Us</Link>
+    </article>
+
         </div>
-    
-      </div>
-      </div>
 
-      <img className={styles.image} src="/logo (2).png" alt="Association Logo" />
-      {/* Google map goes here */}
-      <div className={styles.mapContainer}>
-        <iframe
-          className={styles.mapBox}
-          height="200"
-          id="gmap_canvas"
-          src="https://maps.google.com/maps?q=futru%20%20Nkwen&t=k&z=13&ie=UTF8&iwloc=&output=embed"
-          scrolling="no"
-        ></iframe>
-   
-    </div>
-    </div>
-  );
-};
+        <div className={styles.history}>
+        <h2 className={styles.historyHeader}>Brief History</h2>
+        <p className={styles.historyContent}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam animi assumenda sed voluptate quae dolorem reiciendis velit unde soluta ipsam voluptatem facilis, hic deserunt mollitia repellendus quo ratione asperiores molestias natus! Aliquam voluptas asperiores, rem, placeat minus nisi dolores nam eius magni a ab voluptatem sit corrupti?</p>
 
-export default aboutPage;
+        <div className={styles.secondParagraph}>
+<p className={styles.secondParaDesc}>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, laudantium quae. Voluptatum, mollitia veritatis beatae dolorum, error soluta quidem doloribus eius voluptate officia, obcaecati consequatur at enim tenetur. Quaerat iure deserunt laudantium, est odio ut quidem distinctio, modi eos harum architecto ex maxime illum natus hic nihil? Beatae voluptas ut iste quaerat dignissimos repellendus corporis minima necessitatibus aliquam, eveniet cupiditate esse unde eum, sint eos molestiae sed voluptate praesentium consectetur pariatur mollitia ea voluptatum. Eaque, possimus blanditiis totam omnis mollitia non aliquam rem sint illo iusto maiores quaerat molestiae dolore nobis. Odit aut illo dolore perferendis ea ipsam ipsum et, minus incidunt nam voluptas minima fuga laboriosam. Quia quisquam sit minima provident amet iste, possimus asperiores odit at esse perferendis dolorum harum, nulla nesciunt corrupti tempore dolores eius adipisci odio, libero eligendi velit. Consequatur optio reiciendis iusto minus voluptatibus facere.
+</p>
+
+<div className={styles.nsaLogo}>
+
+<Image src="/logo (2).png" width={100} height={100} alt="logo" className={styles.float} object-fit="cover"/>
+
+</div>
+        
+        </div>
+
+      
+        
+        </div>
+
+        <Faqs/>
+       </section>
+    )
+}
+
+export default aboutPage

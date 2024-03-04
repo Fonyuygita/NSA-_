@@ -1,11 +1,42 @@
+"use client"
+import React, { useRef, useState } from 'react'
 import Link from "next/link"
 import { MdOutlineEmail } from "react-icons/md"
 import {BsWhatsapp} from "react-icons/bs"
 import {RiMessengerLine} from "react-icons/ri"
 import styles from "./contact.module.css"
 import SectionHeader from "@/components/sectionHeader/sectionHeader"
+import emailjs from '@emailjs/browser';
 
-const contactPage=()=>{
+
+
+const ContactPage=()=>{
+  const [sucess, setSuccess]=useState(false)
+  const [error, setError]=useState(false)
+
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+ 
+    e.preventDefault();
+    setError(false)
+    setSuccess(false)
+
+    emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
+      .then((result) => {
+ setSuccess(true)
+ console.log(result);
+ console.log("message not sent");
+ form.current.reset()
+      }, (error) => {
+     setError(true)
+     console.log(error);
+     console.log("message not sent");
+      });
+  };
+
+
     return(
        <section className={styles.contact}>
         <SectionHeader title="Get in Touch" description="Contact me through any means, as shown below"/>
@@ -30,18 +61,21 @@ const contactPage=()=>{
         <div className={styles.formContainer}>
         {/* <HydrationTestNoSSR/> */}
         {/* <div suppressHydrationWarning>{a}</div> */}
-        <form action="" className={styles.form}>
-          <input type="text" placeholder="Name and Surname" />
-          <input type="text" placeholder="Email Address" />
-          <input type="text" placeholder="Phone Number (Optional)" />
+        <form onSubmit={sendEmail}  ref={form} className={styles.form}  >
+     
+          <input type="text" placeholder="Email Address" name="user_email" />
+   
           <textarea
-            name=""
+            name="user_message"
             id=""
             cols="30"
             rows="10"
             placeholder="Message"
           ></textarea>
           <button>Send</button>
+          {sucess && <span className={styles.correctMsg}>Message sent successfully</span>}
+          {error && <span className={styles.wrongMsg}>Message not sent, something went wrong</span>}
+
         </form>
       </div>
         </div>
@@ -49,4 +83,4 @@ const contactPage=()=>{
     )
 }
 
-export default contactPage
+export default ContactPage
