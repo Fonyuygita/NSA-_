@@ -45,9 +45,9 @@ export const branches = [
     },
     {
       id: 3,
-      name: 'Bamenda Branch',
+      name: 'Buea Branch',
       description: 'This is the description of branch C',
-      image: '/bamenda.png',
+      image: '/buea.png',
       executive: {
         name: 'Charlie',
         title: 'CEO of Branch C',
@@ -62,7 +62,7 @@ export const branches = [
     {
       id: 4,
       name: 'Bambili Branch',
-      description: 'This is the description of branch D',
+      description: 'About +134 Members',
       image: '/bambili.png',
       executive: {
         name: 'Charlie',
@@ -82,7 +82,7 @@ export const branches = [
 
     {
       id: 5,
-      name: 'Branch E',
+      name: 'Lassin Branch',
       description: 'This is the description of branch E',
       image: '/contactUs.png',
       executive: {
@@ -104,7 +104,91 @@ export const branches = [
 
     {
       id: 6,
-      name: 'Branch F',
+      name: 'Nkor Branch',
+      description: 'This is the description of branch F',
+      image: '/contactUs.png',
+      executive: {
+        name: 'Charlie',
+        title: 'CEO of Branch C',
+        info: 'This is some info about Charlie',
+        social: {
+          twitter: 'https://twitter.com/charlie',
+          linkedin: 'https://linkedin.com/charlie',
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
+        },
+        image:"/e1.png",
+        Email:"branch@gmail.com", 
+      },
+    },
+
+    {
+      id: 7,
+      name: 'Mbinon Branch',
+      description: 'This is the description of branch F',
+      image: '/contactUs.png',
+      executive: {
+        name: 'Charlie',
+        title: 'CEO of Branch C',
+        info: 'This is some info about Charlie',
+        social: {
+          twitter: 'https://twitter.com/charlie',
+          linkedin: 'https://linkedin.com/charlie',
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
+        },
+        image:"/e1.png",
+        Email:"branch@gmail.com", 
+      },
+    },
+
+    {
+      id: 8,
+      name: 'Djottin Branch',
+      description: 'This is the description of branch F',
+      image: '/contactUs.png',
+      executive: {
+        name: 'Charlie',
+        title: 'CEO of Branch C',
+        info: 'This is some info about Charlie',
+        social: {
+          twitter: 'https://twitter.com/charlie',
+          linkedin: 'https://linkedin.com/charlie',
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
+        },
+        image:"/e1.png",
+        Email:"branch@gmail.com", 
+      },
+    },
+
+    {
+      id: 9,
+      name: 'Din Branch',
+      description: 'This is the description of branch F',
+      image: '/contactUs.png',
+      executive: {
+        name: 'Charlie',
+        title: 'CEO of Branch C',
+        info: 'This is some info about Charlie',
+        social: {
+          twitter: 'https://twitter.com/charlie',
+          linkedin: 'https://linkedin.com/charlie',
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
+        },
+        image:"/e1.png",
+        Email:"branch@gmail.com", 
+      },
+    },
+
+    {
+      id: 10,
+      name: 'Dom Branch',
       description: 'This is the description of branch F',
       image: '/contactUs.png',
       executive: {

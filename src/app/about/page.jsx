@@ -4,7 +4,7 @@ import styles from "./about.module.css"
 import me from "../../../public/nsa-students.png"
 import Link from "next/link"
 import SectionHeader from "@/components/sectionHeader/sectionHeader"
-import Faqs from "@/components/faqs/Faqs"
+import Faqs from "@/components/faqs/Faqs.jsx"
 
 const aboutPage=()=>{
     return(

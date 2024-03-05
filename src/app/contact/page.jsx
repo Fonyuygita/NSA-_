@@ -46,7 +46,7 @@ const ContactPage=()=>{
         <div className={styles.contactContainer}>
         <div className={`container ${styles.contactWrapper}`}>
 
-            <Link href="mailto:fonyyuyjudegita@gmail.com" className={`${styles.contactOption} ${styles.btn1}`}  target="_blank " rel="noopener noreferrror">
+            <Link href="mailto:nonistudents@gmail.com" className={`${styles.contactOption} ${styles.btn1}`}  target="_blank " rel="noopener noreferrror">
                 <MdOutlineEmail className={styles.contactIcon}/>
             </Link>
 
@@ -54,7 +54,7 @@ const ContactPage=()=>{
                 <RiMessengerLine className={styles.contactIcon}/>
             </Link>
 
-            <Link href="https://wa.me/+237672792563" className={`${styles.contactOption} ${styles.btn3}`} target="_blank " rel="noopener noreferrror">
+            <Link href="https://wa.me/+237680064153" className={`${styles.contactOption} ${styles.btn3}`} target="_blank " rel="noopener noreferrror">
                 <BsWhatsapp className={styles.contactIcon}/>
             </Link>
         </div>

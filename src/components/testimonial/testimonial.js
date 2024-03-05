@@ -4,7 +4,7 @@ export const TestimonialData = [
       name: ' Nkey Vandoline ',
       profession: 'National President',
       quote: "I fully became a member of this prestigious association in 2020 with the creation of DOUALA BRANCH after being an on and off member since about 2009.By the grace of God I was trusted with a leadership role as president of NSA Douala Branch..", 
-      avatar: '/a1.png',
+      avatar: '/a.png',
     },
     {
         id:2,

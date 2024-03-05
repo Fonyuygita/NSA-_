@@ -4,6 +4,7 @@ import Image from "next/image"
 
 import styles from "./hero.module.css"
 import { useEffect, useState } from "react"
+import Link from "next/link"
 
 const Hero=()=>{
   //data for slide show
@@ -18,7 +19,7 @@ const Hero=()=>{
     {
         id:2,
         title:"President Emeritus Dr Ndiyun Robert for his PHD defense in Johannesburg-South Africa",
-        image:"/e6.png"
+        image:"/Dr.png"
     },
     {
         id:3,
@@ -95,8 +96,8 @@ const Hero=()=>{
       : Noni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon.
       </p>
       <div className={styles.buttons}>
-        <button className={styles.button}>About Us</button>
-        <button className={styles.button}>Contact</button>
+      <Link href="/about" className={styles.button}>About Us</Link>
+      <Link href="/contact" className={styles.button}>Contact Us</Link>
       </div>
      
     </div>

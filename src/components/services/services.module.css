@@ -15,6 +15,15 @@
     border-radius: 23px;
 }
 
+.header{
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    color: #333;;
+
+}
+
 .title{
     color: #999;
 }
