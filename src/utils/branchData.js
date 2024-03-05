@@ -206,4 +206,25 @@ export const branches = [
         Email:"branch@gmail.com", 
       },
     },
+
+    {
+      id: 11,
+      name: 'Bafoussam Branch',
+      description: 'This is the description of branch F',
+      image: '/contactUs.png',
+      executive: {
+        name: 'Charlie',
+        title: 'CEO of Branch C',
+        info: 'This is some info about Charlie',
+        social: {
+          twitter: 'https://twitter.com/charlie',
+          linkedin: 'https://linkedin.com/charlie',
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
+        },
+        image:"/e1.png",
+        Email:"branch@gmail.com", 
+      },
+    },
   ];

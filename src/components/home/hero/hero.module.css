@@ -50,17 +50,22 @@
   }
   
   .button{
-    padding: 20px;
+    padding: 12px;
     min-width: 120px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    background-color: var(--color-danger);
+    color: #fff;
   }
   
   .button:first-child{
     background-color: #072451;
     color: var(--text);
   }
+
+  
+  
   
   .brands{
     width: 500px;
