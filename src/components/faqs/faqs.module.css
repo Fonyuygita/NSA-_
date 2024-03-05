@@ -1,0 +1,50 @@
+
+
+
+.section{
+    padding-top: 7rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem 4rem;
+    align-items: center;
+}
+
+.faq{
+    padding: 1rem;
+cursor: pointer;
+background-color: var(--color-gray-0);
+}
+
+.faq.open{
+    background-color: var(--btn2);
+    color: white;
+}
+
+.faq.open h6{
+    color: white;
+}
+.faq div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.faq p{
+    margin-top: 1rem;
+    margin-left: 2.1rem;
+    font-size: 0.9rem;
+
+}
+
+@media screen and (max-width: 600px){
+    .section{
+        margin-top: -4rem;
+
+    }
+    .container{
+        grid-template-columns: 1fr;
+    }
+}
