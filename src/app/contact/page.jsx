@@ -7,12 +7,14 @@ import {RiMessengerLine} from "react-icons/ri"
 import styles from "./contact.module.css"
 import SectionHeader from "@/components/sectionHeader/sectionHeader"
 import emailjs from '@emailjs/browser';
+import { useRouter } from 'next/router'
 
 
 
 const ContactPage=()=>{
   const [sucess, setSuccess]=useState(false)
-  const [error, setError]=useState(false)
+  const [error, setError]=useState(false);
+  const router=useRouter();
 
 
   const form = useRef();
@@ -26,6 +28,7 @@ const ContactPage=()=>{
     emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_ID, process.env.NEXT_PUBLIC_TEMPLATE_ID, form.current, process.env.NEXT_PUBLIC_PUBLIC_KEY)
       .then((result) => {
  setSuccess(true)
+ router.push("/")
  console.log(result);
  console.log("message not sent");
  form.current.reset()
