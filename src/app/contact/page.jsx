@@ -7,7 +7,7 @@ import {RiMessengerLine} from "react-icons/ri"
 import styles from "./contact.module.css"
 import SectionHeader from "@/components/sectionHeader/sectionHeader"
 import emailjs from '@emailjs/browser';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 
 
