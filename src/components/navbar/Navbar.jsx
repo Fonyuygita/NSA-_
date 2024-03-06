@@ -58,7 +58,7 @@ const Navbar=()=>{
         {navOpen &&         <ul className={styles.navItems}>
             {data.map(({ id, link, caption }) => (
                 <li key={id}>
-                    <Link href={link} onClick={closeNavHandler} className={`${path===link ? "active" : styles.notActive}`}>{caption}</Link>
+                    <Link href={link} onClick={closeNavHandler} className={`${path===link ? styles.active : styles.notActive}`}>{caption}</Link>
                 </li>
             ))}
         </ul>

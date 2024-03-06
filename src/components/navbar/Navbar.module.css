@@ -15,6 +15,10 @@
     z-index: 99;
 }
 
+.active{
+    color: var(--color-danger);
+}
+
 .navContainer{
     display: flex;
     place-items: center;

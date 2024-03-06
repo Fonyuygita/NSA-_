@@ -75,7 +75,7 @@ const Executives = () => {
 
   return (
     <section className={styles.container}>
-      <SectionHeader title="Our Executive" description="The services we offer The services we offerThe services we offerThe services we offerThe services we offer" />
+      <SectionHeader title="Our Executive" description="Here are our top executives" />
 
 
 

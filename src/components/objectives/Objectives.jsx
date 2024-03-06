@@ -11,20 +11,20 @@ const objectiveData=[
     {
         id:1,
         title:"Motto",
-        description:"To conserve the motto of the association: Unity is Strength, which is the quest for progress, loyalty and social justice",
+        description:"`Kentaashe nu Mvungay` (Unity Is Strength)",
      icon:<FaDesktop />,
     },
 
     {
         id:2,
         title:"Mobilization",
-        description:"To mobilize, rally and galvanize all the Noni students into a united force with the aim of promoting mutual trust and understanding; Encouraging the advancement of education in Noni;",
+        description:"To mobilize, rally and galvanize all the Noni students into a united force with the aim of promoting mutual trust and understanding; Encouraging the advancement of education and culture both in and out  Noni;",
        icon:<FaDesktop />
     },
 
     {
         id:3,
-        title:"Growh",
+        title:"Growth",
         description:"Encouraging the growth of a sound and healthy community; Reviving, portraying and preserving our culture; Discouraging every form of mal practices, among youths as a means of survival and further encouraging them to rely on hard work for it pays.",
         icon:<FaDesktop />,
     },
