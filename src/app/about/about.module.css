@@ -119,6 +119,57 @@
 
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.supportButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff5722;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: rotate 4s infinite linear;
+  z-index: 99;
+  flex-direction: column;
+}
+
+.supportText {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  animation: rotateText 4s infinite linear;
+}
+
+@keyframes rotateText {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.reactIcon {
+  /* background-image: url('path/to/react-icon.png'); */
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width:600px){
   .container{
       grid-template-columns: 1fr;

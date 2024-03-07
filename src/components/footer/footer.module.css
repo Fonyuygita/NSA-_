@@ -3,6 +3,7 @@
     background-color:var(--btn2);
     color: #fff;
     padding: 40px;
+    z-index: 0;
     
   }
   
