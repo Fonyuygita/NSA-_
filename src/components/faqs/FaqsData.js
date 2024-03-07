@@ -1,32 +1,38 @@
 export const faqsData = [
     {
       id: 1,
-      title: "What programming languages do you specialize in?",
-      description: "I specialize in JavaScript, Python, and Java. I have extensive experience working with these languages and can build a wide range of applications using them."
+      title: "What is the Noni Students Association (NSA)?",
+      description: "The Noni Students Association is a prestigious organization that aims to promote education through literacy campaigns in the Noni community"
     },
     {
       id: 2,
-      title: "Do you have experience with frontend frameworks?",
-      description: "Yes, I have experience with popular frontend frameworks like React and Vue.js. I have built several projects using these frameworks and can create interactive and responsive user interfaces."
+      title: "When was the NSA founded?",
+      description: "The NSA was founded in the December break of 1960, with its first meeting held in Djottin.",
     },
     {
       id: 3,
-      title: "What is your approach to testing and quality assurance?",
-      description: "I believe in writing comprehensive unit tests and performing integration testing to ensure the quality of my code. I also follow best practices such as code reviews and continuous integration to catch any issues early on."
+      title: "Who was the founder and pioneer president of the NSA?",
+      description: "The founder and pioneer president of the NSA is KONGLIMNYUY Joseph KWI, who conceived the idea while serving as a form four student in Sasse College."
     },
     {
       id: 4,
-      title: "How do you stay updated with the latest technologies and trends?",
-      description: "I am passionate about learning and staying up to date with the latest technologies and trends in the software development industry. I regularly attend conferences, participate in online courses, and read tech blogs to expand my knowledge."
+      title: "What were the initial goals of the NSA?",
+      description: "The NSA aimed to create a student movement that transcended religious denominations and involved all Noni students, including pagans, in promoting education."
     },
     {
       id: 5,
-      title: "Can you explain your experience with version control systems?",
-      description: "I have extensive experience with Git, which is a widely used version control system. I am comfortable with branching, merging, and resolving conflicts. I also have experience working with remote repositories and using platforms like GitHub and GitLab."
+      title: "How did the NSA impact the Noni community?",
+      description: "The NSA influenced the lives of Noni sons and daughters by initiating clean-up campaigns, promoting education, and later giving birth to organizations like the Noni Empowerment Union and the Nkor Development Authority."
     },
     {
       id: 6,
-      title: "How do you approach debugging and troubleshooting issues?",
-      description: "When faced with a bug or an issue, I follow a systematic approach to debugging. I analyze the error messages, review the code, and use debugging tools to identify the root cause. I am patient and persistent in finding solutions to problems."
+      title: "What is the significance of the NSA in the history of Bui and Southern Cameroon?",
+      description: "The NSA holds the distinction of being the first student association documented in the history of Bui Division and Southern Cameroon. It also inspired the creation of student unions and associations in other villages"
+    },
+
+    {
+      id: 7,
+      title: "Who are some notable individuals associated with the NSA?",
+      description: "Hon. KONGLIMNYUY Joseph KWI, the founder of the NSA, has not only given birth to this great organization but also taught and raised distinguished individuals like Prof. BOLE BUTAKE, Chief INONI Ephraim (former Prime Minister of Cameroon), and Herman MAIMO (former Minister of Public Works)."
     },
 ]

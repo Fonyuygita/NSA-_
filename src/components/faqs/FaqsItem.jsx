@@ -11,7 +11,7 @@ const FaqsItem=({ title, description})=>{
     }
     return(
         <article className={`${styles.faq} ${open ?  styles.open : ""}`} onClick={handleClick}>
-            <div>
+            <div className={styles.width}>
             <span>{open ? <AiOutlineMinus/> : <AiOutlinePlus/>} </span>
             <h6>{title}</h6>
             </div>

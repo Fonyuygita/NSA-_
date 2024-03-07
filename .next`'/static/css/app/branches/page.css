@@ -1,0 +1,246 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/branches/branch.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+/* Import the CSS modules */
+
+/* Define the styles for the container element */
+.branch_container__fN3h_ {
+    display: flex;
+    flex-direction: column;
+  margin-top: 7rem;
+    justify-content: center;
+    align-items: center;
+  
+  padding: 20px; /* Add some padding */
+}
+
+
+
+/* Define the styles for the title element */
+.branch_title__lnK2t {
+  font-size: 36px; /* Set a large font size */
+  font-weight: bold; /* Set a bold font weight */
+  text-align: center; /* Center the text */
+  margin-bottom: 20px; /* Add some bottom margin */
+  color: #111;
+}
+
+.branch_desc__n55uy{
+  text-align: center;
+  color: #333;
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+font-size: 18px;
+  
+}
+
+/* Define the styles for the grid element */
+.branch_grid__wZnUw {
+display: flex;
+/* flex-direction: column; */
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 12px;
+}
+
+/* Define the media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  /* Adjust the grid columns for smaller screens */
+  .branch_grid__wZnUw {
+    /* grid-template-columns: repeat(1, 1fr); */
+     /* Divide the grid into two equal columns */
+     /* gap: 33px;
+      */
+
+      flex-direction: column;
+  }
+
+  .branch_title__lnK2t{
+    font-size: 18px;
+  }
+
+  .branch_desc__n55uy{
+    font-size: 15px;
+    width: 90%;
+  }
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/branchCard/branchCard.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+
+
+/* Define the styles for the card container */
+.branchCard_card__bPiS1 {
+  background-color: transparent;
+   width: 300px; 
+ height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  cursor: pointer;
+}
+
+/* Define the styles for the card inner element */
+.branchCard_cardInner__zFnj_ {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Define the styles for the card front and back elements */
+.branchCard_cardFront__KyWX_,
+.branchCard_cardBack__0gxVa {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Define the styles for the card front element */
+.branchCard_cardFront__KyWX_ {
+  background-color: #fff;
+  color: black;
+}
+
+/* Define the styles for the card image element */
+.branchCard_cardImage__cLQYE {
+  object-fit: cover;
+  /* width: 100%; */
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+/* Define the styles for the card name element */
+.branchCard_cardName__FjJfi {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Define the styles for the card description element */
+.branchCard_cardDescription__b8U2m {
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* Define the styles for the card back element */
+.branchCard_cardBack__0gxVa {
+  background-color: var(--btn2);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Define the styles for the card title element */
+.branchCard_cardTitle___4i7f {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #f1f1f1;
+}
+
+/* Define the styles for the card info element */
+.branchCard_cardInfo__BFnfj {
+  font-size: 16px;
+  margin: 10px;
+  color: #999;
+}
+
+/* Define the styles for the card social element */
+.branchCard_cardSocial__QBjQz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 12px;
+  height: 50px;
+}
+
+/* Define the styles for the card link element */
+.branchCard_cardLink__0piS5 {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+/* Define the styles for the card link icon element */
+.branchCard_cardLink__0piS5 i {
+  font-size: 24px;
+}
+.branchCard_bDesc__1Jstn{
+  font-size: small;
+margin-top: -0.9rem;
+}
+/* Define the styles for the flip animation */
+.branchCard_flipped__zgG6R {
+  transform: rotateY(180deg);
+}
+
+
+.branchCard_eImage___RShk{
+  background-color: #fff;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+
+}
+.branchCard_img__OYa_8{
+  border-radius: 50%;
+}
+
+
+/* Define the media query for mobile devices */
+@media only screen and (max-width: 600px) {
+    /* Adjust the card container width and height */
+    .branchCard_card__bPiS1 {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+  
+    /* Adjust the card image width and height */
+    .branchCard_cardImage__cLQYE {
+      width: 100%;
+      height: 200px;
+      margin: 0 auto;
+    }
+  
+    /* Adjust the card name font size */
+    .branchCard_cardName__FjJfi {
+      font-size: 18px;
+    }
+  
+    /* Adjust the card description font size */
+    .branchCard_cardDescription__b8U2m {
+      font-size: 14px;
+    }
+  
+    /* Adjust the card title font size */
+    .branchCard_cardTitle___4i7f {
+      font-size: 16px;
+    }
+  
+    /* Adjust the card info font size */
+    .branchCard_cardInfo__BFnfj {
+      font-size: 12px;
+    }
+  
+    /* Adjust the card link icon font size */
+    .branchCard_cardLink__0piS5 i {
+      font-size: 20px;
+    }
+}

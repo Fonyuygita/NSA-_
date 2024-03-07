@@ -5,17 +5,26 @@
     padding-top: 7rem;
 }
 
+.width{
+    margin: 0 auto;
+   
+
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.8rem 4rem;
     align-items: center;
+    /* width: 350px; */
+
 }
 
 .faq{
     padding: 1rem;
 cursor: pointer;
 background-color: var(--color-gray-0);
+
 }
 
 .faq.open{
@@ -40,11 +49,23 @@ background-color: var(--color-gray-0);
 }
 
 @media screen and (max-width: 600px){
+
     .section{
         margin-top: -4rem;
 
     }
+
+    .faq{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+    }
     .container{
+        width: 360px;
+        padding-left: 11px;
+        padding-right: 11px;
+margin: 0 auto;
         grid-template-columns: 1fr;
     }
 }

@@ -13,6 +13,10 @@
   gap: 10%;
 }
 
+.readMore{
+  background-color: var(--color-danger);
+}
+
 .image{
   height: 28rem;
   overflow: hidden;
@@ -23,6 +27,13 @@
    opacity: 0;
    animation: identifier 2s ease forwards;
    border-radius: 60px;
+}
+
+.aboutSupport{
+  margin-top: 22px;
+  background-color: var(--color-danger);
+  padding: 12px;
+  margin-bottom: -12px;
 }
 
 .aboutContent p{
@@ -47,8 +58,8 @@
 
 .history{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   margin-top: 5rem;
   flex-direction: column;
   gap: 1.4rem;
@@ -118,6 +129,10 @@
   .image{
       margin: 0 auto;
       width: 20rem;
+  }
+
+  .history{
+    margin-top: 3rem;
   }
   .secondParagraph{
     flex-direction: column;

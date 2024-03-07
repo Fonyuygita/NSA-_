@@ -1,0 +1,185 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/activities/activity.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.activity_section__rcbQr{
+    margin-top: 8rem;
+}
+
+
+.activity_categories__HyKZh{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.activity_catBtn__Vo_q1{
+    color: var(--color-gray-800);
+    text-transform: capitalize;
+    transition: var(--transition);
+}
+
+.activity_btn__fDnNy.activity_catBtn__Vo_q1:hover{
+    transform: translateY(0);
+}
+
+.activity_activities__rxxfA{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.activity_activity__CYMcF{
+    opacity: 0;
+    animation: activity_identifier__7dxrp 1s ease-in forwards;
+    background-color: red;
+}
+
+@keyframes activity_identifier__7dxrp{
+    to{
+        opacity: 1;
+    }
+}
+
+.activity_image__tSzS7{
+    width: 100%;
+    /* height: fit-content; */
+    min-height: 7rem;
+    max-height: 15rem;
+    background: var(--color-light);
+    border-radius: var(--border-radius-2);
+    overflow: hidden;
+}
+
+.activity_content__s0baw{
+    padding: 1.5rem;
+}
+
+.activity_content__s0baw p{
+    margin: 0.5rem 0 2rem;
+    font-size: 11px;
+}
+.activity_cCta__PseXY{
+    display: flex;
+    gap: 1rem;
+}
+
+.activity_btn__fDnNy{
+    display: inline-block;
+background: var(--color-gary-200);
+padding: 0.6rem 1.5rem;
+font-size: 0/8rem;
+}
+
+.activity_btn__fDnNy.activity_primary__snF4R{
+    background: var(--color-primary);
+    color: white;
+}
+
+
+/* media queries */
+@media screen and (max-width:600px){
+    .activity_categories__HyKZh{
+        gap: 0.6rem;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-left: 22px;
+    }
+
+    .activity_activities__rxxfA{
+        grid-template-columns: 1fr;
+     
+
+    }
+
+    .activity_btn__fDnNy.activity_catBtn__Vo_q1{
+        padding: 0.7rem 0.8rem;
+    }
+
+    .activity_activities__rxxfA{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/card/card.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.card_card__UTBDd{
+    background: var(--color-gray-0);
+    width: 300px;
+    height: 350px;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    transition: var(--transition);
+    padding: 12px;
+}
+
+.card_card__UTBDd:hover{
+    transform:translateY(-0.5rem);
+    box-shadow: 0 2rem 2rrem rgba(0, 0, 0, 0.1);
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/sectionHeader/sectionHeader.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
+.sectionHeader_sectionHeader__Q5OBH{
+    margin: 4rem 0 7rem;
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: -2px 7px 11px 0px rgba(0,0,0,0.63);
+    transition: var(--transition);
+        opacity: 0;
+        animation: sectionHeader_identifier__niQyA 1s ease-in forwards;
+}
+.sectionHeader_sectionHeade__V7ktI:hover{
+    background-color: var(--color-gray-200);
+}
+
+@keyframes sectionHeader_identifier__niQyA{
+    to{
+        opacity: 1;
+        margin-top: 3rem;
+    }
+}
+
+
+.sectionHeader_sectionHeader__Q5OBH h3{
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.sectionHeader_sectionHeader__Q5OBH p{
+    min-width: 52rem;
+    margin-inline: auto;
+    color: var(--btn2);
+}
+
+@media screen and (max-width:600px) {
+    .sectionHeader_sectionHeader__Q5OBH{
+        margin-bottom: 2rem;
+        padding: 20px;
+        
+        
+    }
+
+    
+@keyframes sectionHeader_identifier__niQyA{
+    to{
+        opacity: 1;
+    }
+}
+
+
+    .sectionHeader_sectionHeader__Q5OBH p{
+        min-width: var(--container-width-md);
+        font-size: small;
+    }
+
+}
