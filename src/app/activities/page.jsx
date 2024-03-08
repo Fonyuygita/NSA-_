@@ -34,7 +34,7 @@ return;
 
     return(
         <section className={styles.section}>   
-         <SectionHeader title="My activities" description="Go ahead and filter my reent activities"/>
+         <SectionHeader title="Our activities" description="Explore Our activities, Both recent and historic events"/>
     <div className="container">
     <CategoryButton categories={uniqueCategory} filterProjectProp={filterProjectHandler}/>
     <Activity activities={activities}/>
