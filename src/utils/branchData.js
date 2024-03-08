@@ -15,6 +15,8 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/alice',
           linkedin: 'https://linkedin.com/alice',
+          whatsapp: 'https://wa.me/+237683189790',
+
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
@@ -29,12 +31,14 @@ export const branches = [
       description: 'This is the description of branch B',
       image: '/douala.jpg',
       executive: {
-        name: 'Bob',
-        title: 'President',
+        name: 'Kinchin Livinus Shey',
+        title: 'President NSA Douala',
         info: 'This is some info about Bob',
         social: {
           twitter: 'https://twitter.com/bob',
           linkedin: 'https://linkedin.com/bob',
+          whatsapp: 'https://wa.me/+237675354349',
+
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
@@ -55,6 +59,8 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
+          whatsapp: 'https://wa.me/+237683189790',
+
         },
       },
     },
@@ -65,12 +71,14 @@ export const branches = [
       description: 'About +134 Members',
       image: '/bambili.png',
       executive: {
-        name: 'Charlie',
-        title: 'CEO of Branch C',
-        info: 'This is some info about Charlie',
+        name: 'Nfoya Claris Beri',
+        title: 'President NSA Bamili',
+        info: 'student',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
+          whatsapp: 'https://wa.me/+237671342844',
+
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
@@ -92,6 +100,8 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
+          whatsapp: 'https://wa.me/+237675992040',
+
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
@@ -114,6 +124,8 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
+          whatsapp: 'https://wa.me/+237677863808',
+
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
@@ -135,6 +147,8 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
+          whatsapp: 'https://wa.me/+237650650095',
+
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
@@ -156,6 +170,8 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
+          whatsapp: 'https://wa.me/+237675992040',
+
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
@@ -177,6 +193,8 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
+          whatsapp: 'https://wa.me/+237670574966',
+
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
@@ -198,6 +216,8 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
+          whatsapp: 'https://wa.me/+237673595178',
+
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
@@ -219,11 +239,37 @@ export const branches = [
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
+          whatsapp: 'https://wa.me/+237680064153',
+
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
         image:"/e1.png",
+        Email:"branch@gmail.com", 
+      },
+    },
+
+    
+    {
+      id: 12,
+      name: 'Diaspora Branch',
+      description: 'About +134 Members',
+      image: '/bambili.png',
+      executive: {
+        name: 'Nfoya Claris Beri',
+        title: 'President NSA Bamili',
+        info: 'student',
+        social: {
+          twitter: 'https://twitter.com/charlie',
+          linkedin: 'https://linkedin.com/charlie',
+          whatsapp: 'https://wa.me/+237680064153',
+
+          lImage:<BsLinkedin/>,
+          fImage:<BsFacebook/>,
+          wImage:<BsWhatsapp/>
+        },
+        image:"/e2.png",
         Email:"branch@gmail.com", 
       },
     },

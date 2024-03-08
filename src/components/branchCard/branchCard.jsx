@@ -63,7 +63,7 @@ const BranchCard = ({ branch }) => {
             {branch.executive.social.lImage} 
             </Link>
 
-            <Link href={branch.executive.social.linkedin} className={styles.cardLink}>
+            <Link href={branch.executive.social.whatsapp} className={styles.cardLink}>
             {branch.executive.social.wImage} 
             </Link>
           </div>
