@@ -42,7 +42,7 @@ const ContactPage=()=>{
 
     return(
        <section className={styles.contact}>
-        <SectionHeader title="Get in Touch" description="Contact me through any means, as shown below"/>
+        <SectionHeader title="Get in Touch" description="Contact us through any of the below means"/>
         <div className={styles.contactContainer}>
         <div className={`container ${styles.contactWrapper}`}>
 

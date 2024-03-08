@@ -43,7 +43,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/e3.png",
+        image:"/douala-president.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -83,7 +83,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/e2.png",
+        image:"/bambili-president.png",
         Email:"branch@gmail.com", 
       },
     },
