@@ -61,13 +61,17 @@ const handleReadMore=()=>{
         </div>
 
         <Faqs/>
-        <div className={styles.supportButton}>
+        {/*
+         <Link className={styles.supportButton}>
 <Link href="" className={styles.reactIcon}>
 <FaMoneyBillTransfer color="black" size={30}/>
 </Link>
 <span>Support</span>
 
-</div>
+</Link>  
+    
+    */}
+ 
        </section>
     )
 }

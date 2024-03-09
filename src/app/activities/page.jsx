@@ -12,7 +12,7 @@ const ActivityPage=()=>{
     // console.log(activities);
 
     const searchCategory=Data.map((item)=>(
-        item.title
+        item.category
        
     ))
     console.log(searchCategory)
@@ -28,6 +28,7 @@ return;
 
 
     const filterProject=Data.filter(project=> project.category===category);
+    console.log(filterProject);
     setActivities(filterProject)
    
 }
