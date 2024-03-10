@@ -1,20 +1,18 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    swcMinify:false,
-    // Enable the Next.js Image Optimization API
-    images: {
-        // Specify the domains that are allowed to serve images
-        domains: ["images.pexels.com"],
-        // Specify the loader to use for image optimization
-        loader: "default",
-      },
+const withMDX = require('@next/mdx')({
+  extension: /\.mdx?$/
+})
 
-      eslint: {
-        ignoreDuringBuilds: true,
-    }
+const nextConfig = {
+  swcMinify: false,
+  images: {
+    domains: ["images.pexels.com"],
+    loader: "default",
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  // Add MDX to the page extensions
+  pageExtensions: ['js', 'jsx', 'md', 'mdx']
 }
 
-module.exports = nextConfig
-
-
-
+module.exports = withMDX(nextConfig)

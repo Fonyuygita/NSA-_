@@ -14,9 +14,9 @@ const Executives = () => {
       position: 'General President ',
       picture: '/a1.png',
       socialMedia: [
-        { name: 'LinkedIn', icon: <FaLinkedin color="#fff"/>, url: 'https://www.linkedin.com/' },
-        { name: 'Twitter', icon: <FaXTwitter color="#fff"/>, url: 'https://twitter.com/' },
-        { name: 'Instagram', icon: <FaFacebook color="#fff"/>, url: 'https://www.facebook.com/nsa.noni' },
+        { name: 'LinkedIn', icon: <FaLinkedin color="#fff" />, url: 'https://www.linkedin.com/' },
+        { name: 'Twitter', icon: <FaXTwitter color="#fff" />, url: 'https://twitter.com/' },
+        { name: 'Instagram', icon: <FaFacebook color="#fff" />, url: 'https://www.facebook.com/nsa.noni' },
       ],
     },
 
@@ -26,9 +26,9 @@ const Executives = () => {
       position: 'General Vice President',
       picture: '/b.png',
       socialMedia: [
-        { name: 'LinkedIn', icon: <FaLinkedin color="#fff"/>, url: 'https://www.linkedin.com/' },
-        { name: 'Twitter', icon: <FaXTwitter color="#fff"/>, url: 'https://twitter.com/' },
-        { name: 'Instagram', icon: <FaFacebook color="#fff"/>, url: 'https://www.facebook.com/nsa.noni' },
+        { name: 'LinkedIn', icon: <FaLinkedin color="#fff" />, url: 'https://www.linkedin.com/' },
+        { name: 'Twitter', icon: <FaXTwitter color="#fff" />, url: 'https://twitter.com/' },
+        { name: 'Instagram', icon: <FaFacebook color="#fff" />, url: 'https://www.facebook.com/nsa.noni' },
       ],
     },
 
@@ -39,9 +39,9 @@ const Executives = () => {
       position: 'Technicaal Advicer',
       picture: '/a2.png',
       socialMedia: [
-        { name: 'LinkedIn', icon: <FaLinkedin color="#fff"/>, url: 'https://www.linkedin.com/' },
-        { name: 'Twitter', icon: <FaXTwitter color="#fff"/>, url: 'https://twitter.com/' },
-        { name: 'Instagram', icon: <FaFacebook color="#fff"/>, url: 'https://www.facebook.com/nsa.noni' },
+        { name: 'LinkedIn', icon: <FaLinkedin color="#fff" />, url: 'https://www.linkedin.com/' },
+        { name: 'Twitter', icon: <FaXTwitter color="#fff" />, url: 'https://twitter.com/' },
+        { name: 'Instagram', icon: <FaFacebook color="#fff" />, url: 'https://www.facebook.com/nsa.noni' },
       ],
     },
 
@@ -51,9 +51,9 @@ const Executives = () => {
       position: 'National Organising secretary.',
       picture: '/f.png',
       socialMedia: [
-        { name: 'LinkedIn', icon: <FaLinkedin color="#fff"/>, url: 'https://www.linkedin.com/' },
-        { name: 'Twitter', icon: <FaXTwitter color="#fff"/>, url: 'https://twitter.com/' },
-        { name: 'Instagram', icon: <FaFacebook color="#fff"/>, url: 'https://www.facebook.com/nsa.noni' },
+        { name: 'LinkedIn', icon: <FaLinkedin color="#fff" />, url: 'https://www.linkedin.com/' },
+        { name: 'Twitter', icon: <FaXTwitter color="#fff" />, url: 'https://twitter.com/' },
+        { name: 'Instagram', icon: <FaFacebook color="#fff" />, url: 'https://www.facebook.com/nsa.noni' },
       ],
     },
 
@@ -64,9 +64,9 @@ const Executives = () => {
       desc: "I am also the Financial Secretary of NSA Douala Branch",
       picture: '/e.png',
       socialMedia: [
-        { name: 'LinkedIn', icon: <FaLinkedin color="#fff"/>, url: 'https://www.linkedin.com/' },
-        { name: 'Twitter', icon: <FaXTwitter color="#fff"/>, url: 'https://twitter.com/' },
-        { name: 'Instagram', icon: <FaFacebook color="#fff"/>, url: 'https://www.facebook.com/nsa.noni' },
+        { name: 'LinkedIn', icon: <FaLinkedin color="#fff" />, url: 'https://www.linkedin.com/' },
+        { name: 'Twitter', icon: <FaXTwitter color="#fff" />, url: 'https://twitter.com/' },
+        { name: 'Instagram', icon: <FaFacebook color="#fff" />, url: 'https://www.facebook.com/nsa.noni' },
       ],
 
     }
@@ -83,34 +83,34 @@ const Executives = () => {
         <div className={`${styles.container} ${styles.teamContainer}`}>
 
 
-{Executives.map(({name, position,  picture,socialMedia })=>(
-  <article className={styles.teamMember} key={name}>
-  <div class={styles.teamMemberImg}>
-  <Image src={picture} alt="" width={100} height={100} className={styles.img} object-fit="cover" />
+          {Executives.map(({ name, position, picture, socialMedia }) => (
+            <article className={styles.teamMember} key={name}>
+              <div class={styles.teamMemberImg}>
+                <Image src={picture} alt="" width={100} height={100} className={styles.img} object-fit="cover" />
 
-</div>
-<div class={styles.teamInfo}>
-  <h3>{name}</h3>
-  <p>{position}</p>
-</div>
-
-
-<div class={styles.teamMemberSocials}>
-{socialMedia.map(({url, name, icon})=>(
-  <Link href={url} className={styles.social} key={name}>
-  {icon}
-</Link>
-
-))}
-
-</div>
-
-  </article>
+              </div>
+              <div class={styles.teamInfo}>
+                <h3>{name}</h3>
+                <p>{position}</p>
+              </div>
 
 
-))}
+              <div class={styles.teamMemberSocials}>
+                {socialMedia.map(({ url, name, icon }) => (
+                  <Link href={url} className={styles.social} key={name}>
+                    {icon}
+                  </Link>
 
-   
+                ))}
+
+              </div>
+
+            </article>
+
+
+          ))}
+
+
 
         </div>
       </div>

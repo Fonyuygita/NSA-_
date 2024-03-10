@@ -1,47 +1,72 @@
 
 export const Data= [
-    {
+    {id:1,
       image: '/e1.png',
-      title: 'Unity',
-      category:"events",
-      text: 'PROMOTING AND SUSTAINING THE UNITY OF NONI'
+      title: 'Our Elites',
+      category:"education",
+      text: '"Noni Elites Empowering Noni Students in Bambili."'
     },
 
-    {
-        image: '/e3.png',
-        title: 'Encourage',
+    {    id:2,
+        image: '/e6.png',
+        title: 'Dr Ndiyun',
         category:"education",
-        text: 'ENCOURAGING THE ADVANCEMENT OF EDUCATION.',
+        text: '"President Emeritus Dr Ndiyun Robert for his PHD defense in Johannesburg-South Africa",.',
         subText:"welcome t"
       },
 
       {
-        image: '/e6.png',
-        title: 'Sport',
+        id:3,
+        image: '/e3.png',
+        title: 'Football Match',
         category:"sport",
-        text: 'REGULAR SPORTING COMPETITION DURING ANNUAL CONVENTIONS.'
+        text: 'Football match between NSA Douala Branch and NSA Nkor Branch at ANC 2022 in Douala.'
       },
 
       {
-        image: '/e5.png',
-        title: 'Unity',
+        id:4,
+        image: '/e4.png',
+        title: 'Nr and Miss N.S.A',
         category:"events",
-        text: 'PROMOTING AND SUSTAINING THE UNITY OF NONI'
+        text: "Exciting moments when members of NSA Douala Branch welcomed Mr and Miss NSA 2023 from Bambili.",
       },
   
       {
-          image: '/e1.png',
-          title: 'Encourage',
+        id:5,
+          image: '/e5.png',
+          title: 'Promoting Culture',
           category:"culture",
-          text: 'ENCOURAGING THE ADVANCEMENT OF EDUCATION.',
+          text: '"Noni Students at the helm of promoting culture."',
           subText:"welcome t"
         },
   
         {
-          image: '/e7.png',
-          title: 'Sport',
-          category:"sport",
-          text: 'REGULAR SPORTING COMPETITION DURING ANNUAL CONVENTIONS.'
-        }
+          id:6,
+          image: '/e8.png',
+          title: 'At CRTV Bamenda',
+          category:"events",
+          text: '"A shot with host at CRTV Bamenda.'
+        },
+
+        
+        {
+          id:7,
+          image: '/e9.png',
+          title: 'General Assembly',
+          category:"events",
+          text: 'Cross session of General Assembly of NSA at ANC 2022 DOUALA".'
+        },
+
+        {
+          id:8,
+          image: '/e10.png',
+          title: 'General Assembly',
+          category:"events" || "National Assembly",
+          text: "The National Organising Secretary (Mr Shey Dieudonne Ngwang) with members of Bambili Branch on the occasion of his visit to inspect the stadia and how prepared the branch was for ANC 2023"
+        },
+        
 
       ]
+
+
+

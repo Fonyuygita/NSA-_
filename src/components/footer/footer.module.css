@@ -12,7 +12,17 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
   }
+
+  .section{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
   
+  .branches{
+    color: #fff;
+    
+  }
   .section h3 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -53,7 +63,18 @@
     justify-content: center;
     gap: 12px;
   }
+
+  .location{
+    padding: 18px;
+  }
   
+  .locationTitle{
+    color: #999;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1.7rem;
+  }
   /* Mobile Responsiveness */
   
   @media (max-width: 768px) {
@@ -62,6 +83,7 @@
         margin-right: 0;
 
     }
+
     .upperSection {
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
@@ -79,10 +101,9 @@
     }
     
     .section ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      font-size: 14px;
+      
+      display: flex;
+      flex-direction: column;
     }
     
     .section ul li {

@@ -16,7 +16,7 @@ const ActivityPage=()=>{
        
     ))
     console.log(searchCategory)
-const uniqueCategory=["all", ...new Set(searchCategory)];
+const uniqueCategory=['all',  ...new Set(searchCategory)];
 console.log(uniqueCategory);
 
 // Function to filter our categories
