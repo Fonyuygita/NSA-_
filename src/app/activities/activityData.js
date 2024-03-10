@@ -26,7 +26,7 @@ export const Data= [
       {
         id:4,
         image: '/e4.png',
-        title: 'Nr and Miss N.S.A',
+        title: 'Mr and Miss N.S.A',
         category:"events",
         text: "Exciting moments when members of NSA Douala Branch welcomed Mr and Miss NSA 2023 from Bambili.",
       },

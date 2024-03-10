@@ -2,6 +2,7 @@ import { branches } from "@/utils/branchData";
 import Head from "next/head";
 import styles from "./branch.module.css"
 import BranchCard from "@/components/branchCard/branchCard";
+import SectionHeader from "@/components/sectionHeader/sectionHeader";
 
 
 // Create the main component for the branch page
@@ -15,8 +16,8 @@ const Branch = () => {
           <meta name="description" content="This is a page that shows various branches" />
         </Head>
         {/* Use a heading to display the page title */}
-        <h1 className={styles.title}>Our Branches</h1>
-        <p className={styles.desc}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis aliquid quasi veniam.</p>
+        <SectionHeader title="Our Branches" description="N.S.A has been blessed with the following branches all of the country"/>
+        
         {/* Use a grid to display the branch cards */}
         <div className={styles.grid}>
           {/* Map over the branches array and render a BranchCard component for each branch */}

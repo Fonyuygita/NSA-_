@@ -33,7 +33,7 @@ export const branches = [
       executive: {
         name: 'Kinchin Livinus Shey',
         title: 'President NSA Douala',
-        info: 'This is some info about Bob',
+        info: 'Mr Kinchin Livinus Shey',
         social: {
           twitter: 'https://twitter.com/bob',
           linkedin: 'https://linkedin.com/bob',
@@ -73,7 +73,7 @@ export const branches = [
       executive: {
         name: 'Nfoya Claris Beri',
         title: 'President NSA Bamili',
-        info: 'student',
+        info: 'Madam Nforya Claris Beri',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
