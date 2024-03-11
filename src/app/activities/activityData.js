@@ -86,7 +86,7 @@ export const Data= [
         {
           id:11,
           image: '/ac3.png',
-          title: '2012 Excursion',
+          title: ' Excursion',
           category:"events",
           text: "Excursion to Mt. Kenjojaŋ and the caves of Bvugoy during the 2015 ANC in Dom"
         
