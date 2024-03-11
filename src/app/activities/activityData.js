@@ -65,6 +65,45 @@ export const Data= [
           text: "The National Organising Secretary (Mr Shey Dieudonne Ngwang) with members of Bambili Branch on the occasion of his visit to inspect the stadia and how prepared the branch was for ANC 2023"
         },
         
+        {
+          id:9,
+          image: '/ac1.png',
+          title: 'Njang NSA',
+          category:"culture",
+          text: "Njang NSA Yaoundé Branch at the CRTV for the Golden jubilee Celebration of NSA in 2024"
+        },
+
+
+        {
+          id:10,
+          image: '/ac2.png',
+          title: '2012 Excursion',
+          category:"events",
+          text: "Part of the excursion NSA ANC 2012 Djottin visit to the mini hydro-electric plant"
+        
+        },
+
+        {
+          id:11,
+          image: '/ac3.png',
+          title: '2012 Excursion',
+          category:"events",
+          text: "Excursion to Mt. Kenjojaŋ and the caves of Bvugoy during the 2015 ANC in Dom"
+        
+        },
+
+        {
+          id:12,
+          image: '/ac4.png',
+          title: 'Our Member',
+          category:"events",
+          text: "N.S.A Family picture"
+        
+        },
+
+
+        
+        
 
       ]
 

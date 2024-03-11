@@ -54,7 +54,7 @@ export const branches = [
       image: '/buea.png',
       executive: {
         name: 'Charlie',
-        title: 'CEO of Branch C',
+        title: 'President of N.S.A Buea',
         info: 'This is some info about Charlie',
         social: {
           twitter: 'https://twitter.com/charlie',
@@ -62,8 +62,12 @@ export const branches = [
           whatsapp: 'https://wa.me/+237683189790',
 
         },
+        image:"/no.png",
+        Email:"buea@gmail.com" 
       },
-    },
+        
+      },
+    
 
     {
       id: 4,
@@ -91,7 +95,7 @@ export const branches = [
     {
       id: 5,
       name: 'Lassin Branch',
-      description: 'This is the description of branch E',
+      description: 'Lassin  Branch',
       image: '/contactUs.png',
       executive: {
         name: 'Charlie',
@@ -106,7 +110,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/a1.png",
+        image:"/no.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -119,8 +123,8 @@ export const branches = [
       image: '/contactUs.png',
       executive: {
         name: 'Charlie',
-        title: 'CEO of Branch C',
-        info: 'This is some info about Charlie',
+        title: 'President Nkor Branch',
+        info: 'More about the president',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
@@ -130,7 +134,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/e1.png",
+        image:"/no.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -142,8 +146,8 @@ export const branches = [
       image: '/contactUs.png',
       executive: {
         name: 'Charlie',
-        title: 'CEO of Branch C',
-        info: 'This is some info about Charlie',
+        title: 'President of Mbinor branch',
+        info: 'More about the president',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
@@ -153,7 +157,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/e1.png",
+        image:"/no.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -165,8 +169,8 @@ export const branches = [
       image: '/contactUs.png',
       executive: {
         name: 'Charlie',
-        title: 'CEO of Branch C',
-        info: 'This is some info about Charlie',
+        title: 'President of Djottin branch',
+        info: 'More about the president',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
@@ -176,7 +180,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/e1.png",
+        image:"/no.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -188,8 +192,8 @@ export const branches = [
       image: '/contactUs.png',
       executive: {
         name: 'Charlie',
-        title: 'CEO of Branch C',
-        info: 'This is some info about Charlie',
+        title: 'President of Din branch',
+        info: 'More about the president',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
@@ -199,7 +203,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/e1.png",
+        image:"/no.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -207,12 +211,12 @@ export const branches = [
     {
       id: 10,
       name: 'Dom Branch',
-      description: 'This is the description of branch F',
+      description: 'President of Dom branch',
       image: '/contactUs.png',
       executive: {
         name: 'Charlie',
-        title: 'CEO of Branch C',
-        info: 'This is some info about Charlie',
+        title: 'President of Dom branch',
+        info: 'More about the president',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
@@ -222,7 +226,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/e1.png",
+        image:"/no.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -234,8 +238,8 @@ export const branches = [
       image: '/contactUs.png',
       executive: {
         name: 'Charlie',
-        title: 'CEO of Branch C',
-        info: 'This is some info about Charlie',
+        title: 'President of Bafouossam branch',
+        info: 'More about the president',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
@@ -245,7 +249,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/e1.png",
+        image:"/no.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -255,10 +259,10 @@ export const branches = [
       id: 12,
       name: 'Diaspora Branch',
       description: 'About +134 Members',
-      image: '/bambili.png',
+      image: '/diaspora.png',
       executive: {
-        name: 'Nfoya Claris Beri',
-        title: 'President NSA Bamili',
+        name: 'Presiddent Diaspora',
+        title: 'More about the president',
         info: 'student',
         social: {
           twitter: 'https://twitter.com/charlie',
@@ -269,7 +273,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/e2.png",
+        image:"/no.png",
         Email:"branch@gmail.com", 
       },
     },

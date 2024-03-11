@@ -56,7 +56,7 @@ const Footer = () => {
         <p>&copy; 2024 N.S.A All rights reserved.</p>
         <p>Developoed by GitaFonyuy</p>
         <div className={styles.socialMedia}>
-            <Link href="/">
+            <Link href="https://www.facebook.com/profile.php?id=100064369466106">
                 <Image src="/facebook.svg" alt='icon' width={20} height={20} />
             </Link>
             <Link href="/">
