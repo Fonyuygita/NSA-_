@@ -93,7 +93,7 @@ const Hero=()=>{
       <h2 className={styles.title2}>{"`Kentaashe nu Mvungay` (Unity Is Strength)"}</h2>
       </div>
       <p className={styles.desc}>
-      : Noni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon.
+       Noni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon.
       </p>
       <div className={styles.buttons}>
       <Link href="/about" className={styles.button}>About Us</Link>

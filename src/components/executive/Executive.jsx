@@ -36,7 +36,7 @@ const Executives = () => {
     {
 
       name: 'Mr Ndikaka Samuel',
-      position: 'Technicaal Advicer',
+      position: 'Technical Adviser',
       picture: '/a2.png',
       socialMedia: [
         { name: 'LinkedIn', icon: <FaLinkedin color="#fff" />, url: 'https://www.linkedin.com/' },
@@ -48,7 +48,7 @@ const Executives = () => {
     {
 
       name: 'Shey Dieudonne Ngwang',
-      position: 'National Organising secretary.',
+      position: 'General Organizing secretary.',
       picture: '/f.png',
       socialMedia: [
         { name: 'LinkedIn', icon: <FaLinkedin color="#fff" />, url: 'https://www.linkedin.com/' },

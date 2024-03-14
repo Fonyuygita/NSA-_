@@ -4,6 +4,10 @@ import styles from "./branch.module.css"
 import BranchCard from "@/components/branchCard/branchCard";
 import SectionHeader from "@/components/sectionHeader/sectionHeader";
 
+export const metadata={
+  title:"Branches"
+}
+
 
 // Create the main component for the branch page
 const Branch = () => {
@@ -16,7 +20,7 @@ const Branch = () => {
           <meta name="description" content="This is a page that shows various branches" />
         </Head>
         {/* Use a heading to display the page title */}
-        <SectionHeader title="Our Branches" description="N.S.A has been blessed with the following branches all of the country"/>
+        <SectionHeader title="Our Branches" description="N.S.A has been blessed with the following branches all over the nation"/>
         
         {/* Use a grid to display the branch cards */}
         <div className={styles.grid}>

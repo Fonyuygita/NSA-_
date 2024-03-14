@@ -5,7 +5,7 @@ import {BsWhatsapp, BsFacebook, BsTwitterX, BsLinkedin} from "react-icons/bs"
 export const branches = [
     {
       id: 1,
-      name: 'Youonde Branch',
+      name: 'Yaounde Branch',
       description: 'This is the description of branch A',
       image: '/ynde.png',
       executive: {
