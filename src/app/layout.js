@@ -12,7 +12,8 @@ export const metadata = {
     template:"%s - Noni Student Association",
   },
 
-  description:"Noni Student’s Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon.",
+  description:"Noni Student’s Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon",
+ 
   twitter :{
     card:"summary-large-image"
   },
