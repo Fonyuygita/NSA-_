@@ -13,15 +13,19 @@ export const metadata = {
   },
 
   description:"Noni Student’s Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon",
- others:{
-  'theme-color':"fff",
-  "twitter:image":"",
-  "twitter:card":"summary_large_image",
-  "og:url":"https://opengraph.b-cdn.net/production/documents/d3bf310b-7efd-4970-a2ab-aa5191f9d332.png?token=Ya0knIuEzRPEk4kMIocLreuPV0A5MVJk37t8cKfsBTI&height=630&width=1200&expires=33246834417",
-  "og:image":"https://opengraph.b-cdn.net/production/documents/d3bf310b-7efd-4970-a2ab-aa5191f9d332.png?token=Ya0knIuEzRPEk4kMIocLreuPV0A5MVJk37t8cKfsBTI&height=630&width=1200&expires=33246834417",
-  "og:type":":website"
 
- },
+  "og-image":'/opengraph-image.png',
+  "twitter:card":"summary_large_image",
+  
+//  others:{
+//   'theme-color':"fff",
+//   "twitter:image":"",
+//   "twitter:card":"summary_large_image",
+//   "og:url":"https://opengraph.b-cdn.net/production/documents/d3bf310b-7efd-4970-a2ab-aa5191f9d332.png?token=Ya0knIuEzRPEk4kMIocLreuPV0A5MVJk37t8cKfsBTI&height=630&width=1200&expires=33246834417",
+//   "og:image":"https://opengraph.b-cdn.net/production/documents/d3bf310b-7efd-4970-a2ab-aa5191f9d332.png?token=Ya0knIuEzRPEk4kMIocLreuPV0A5MVJk37t8cKfsBTI&height=630&width=1200&expires=33246834417",
+//   "og:type":":website"
+
+//  },
  
 
   keywords: [
