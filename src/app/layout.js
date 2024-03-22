@@ -13,9 +13,10 @@ export const metadata = {
   },
 
   description:"Noni Student’s Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon",
-
-  "og-image":'/opengraph-image.png',
-  "twitter:card":"summary_large_image",
+  other: {
+    name: "google-site-verification",
+    content:"2tcesPtaKPl4hu1Lvz0ICM0phoIgcH-HXRv7SffXr9U"
+  },
   
 //  others:{
 //   'theme-color':"fff",
