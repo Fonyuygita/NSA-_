@@ -1,0 +1,36 @@
+/* components/FixedButton.module.css */
+
+.fixedButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 9999;
+  }
+  
+  .buttonLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: transform 0.3s;
+    animation: pulse 2s infinite;
+  }
+  
+  .buttonLink:hover {
+    background-color: #e64a19;
+    animation: none;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

@@ -1,0 +1,19 @@
+.Eventcontainer{
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+height: 100vh;
+
+}
+
+
+@media screen and (max-width:600px){
+    .Eventcontainer {
+        margin-top: 6rem;
+        
+    }
+    .eventImage{
+      width: 400px;
+    }
+
+}

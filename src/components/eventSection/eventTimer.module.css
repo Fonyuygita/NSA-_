@@ -1,0 +1,16 @@
+.count{
+    color: #ff5722;
+    font-weight:  bolder;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.left{
+    color: var(--btn2);
+}
+
+@media screen and (max-width:600px){
+    .count{
+        font-size: 16px;
+    }
+}
