@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./EventSection.module.css";
+import styles from "./eventSection.module.css";
 import CountdownTimer from "./eventTimer";
 
 const EventSection = () => {
