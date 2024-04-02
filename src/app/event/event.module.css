@@ -1,5 +1,5 @@
 .Eventcontainer{
-    margin-top: 5rem;
+    margin-top: 12rem;
     justify-content: center;
     align-items: center;
 height: 100vh;
@@ -9,11 +9,8 @@ height: 100vh;
 
 @media screen and (max-width:600px){
     .Eventcontainer {
-        margin-top: 6rem;
+        margin-top: 8rem;
         
     }
-    .eventImage{
-      width: 400px;
-    }
-
+  
 }

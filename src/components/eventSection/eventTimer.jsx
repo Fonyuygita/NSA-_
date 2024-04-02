@@ -8,7 +8,7 @@ const CountdownTimer = () => {
   const [countdown, setCountdown] = useState(0);
 
   useEffect(() => {
-    const eventDate = new Date('2024-05-01'); // Replace with your event date
+    const eventDate = new Date('2024-04-21'); // Replace with your event date
     const today = new Date();
     const difference = eventDate - today;
 

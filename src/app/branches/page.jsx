@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "./branch.module.css"
 import BranchCard from "@/components/branchCard/branchCard";
 import SectionHeader from "@/components/sectionHeader/sectionHeader";
+import FixedButton from "@/components/eventBtn/eventButton";
 
 export const metadata={
   title:"Branches"
@@ -29,6 +30,8 @@ const Branch = () => {
             <BranchCard key={branch.id} branch={branch} />
           ))}
         </div>
+        <FixedButton/>
+
       </div>
     );
   };

@@ -1,4 +1,5 @@
 import ActivityLogic from "@/components/activity/ActivityLogic"
+import FixedButton from "@/components/eventBtn/eventButton"
 
 
 export const metadata={
@@ -9,7 +10,11 @@ const ActivityPage=()=>{
 
 
     return(
+        <>
     <ActivityLogic/>
+    <FixedButton/>
+    </>
+
 
     )
 }

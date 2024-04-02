@@ -6,6 +6,7 @@ import { RiMessengerLine } from "react-icons/ri"
 import styles from "./contact.module.css"
 import SectionHeader from "@/components/sectionHeader/sectionHeader"
 import Form from "@/components/Form"
+import FixedButton from "@/components/eventBtn/eventButton"
 
 
 
@@ -39,6 +40,8 @@ const ContactPage = () => {
 
       <Form/>
       </div>
+      <FixedButton/>
+
     </section>
   )
 }

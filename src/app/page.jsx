@@ -5,6 +5,7 @@ import Services from "@/components/services/Services";
 import Executives from "@/components/executive/Executive";
 import Objectives from "@/components/objectives/Objectives";
 import TestimonialsPage from "@/components/testimonial/Testimonial.jsx";
+import FixedButton from "@/components/eventBtn/eventButton";
 
 
 const Home = () => {
@@ -16,6 +17,8 @@ const Home = () => {
       <Services/>
       <Objectives/>
       <TestimonialsPage/>
+      <FixedButton/>
+
     </section>
      );
 };
