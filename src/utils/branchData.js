@@ -96,11 +96,11 @@ export const branches = [
       id: 5,
       name: 'Lassin Branch',
       description: 'Lassin  Branch',
-      image: '/contactUs.png',
+      image: '/bview.png',
       executive: {
-        name: 'Charlie',
-        title: 'CEO of Branch C',
-        info: 'This is some info about Charlie',
+        name: '',
+        title: 'President Laissin Branch',
+        info: 'KILIAN FIMUNCHIM  ',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
@@ -110,7 +110,7 @@ export const branches = [
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/no.png",
+        image:"/laissin.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -120,22 +120,22 @@ export const branches = [
       id: 6,
       name: 'Nkor Branch',
       description: 'This is the description of branch F',
-      image: '/contactUs.png',
+      image: '/bview.png',
       executive: {
-        name: 'Charlie',
+        name: 'NGEW YAI Emmanuel',
         title: 'President Nkor Branch',
-        info: 'More about the president',
+        info: 'Youth MP for Oku/ Noni ',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
-          whatsapp: 'https://wa.me/+237677863808',
+          whatsapp: 'https://wa.me/+237677863808, ',
 
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/no.png",
-        Email:"branch@gmail.com", 
+        image:"/nkor.png",
+        Email:"alphayai880@gmail.com.", 
       },
     },
 
@@ -143,7 +143,7 @@ export const branches = [
       id: 7,
       name: 'Mbinon Branch',
       description: 'This is the description of branch F',
-      image: '/contactUs.png',
+      image: '/bview.png',
       executive: {
         name: 'Charlie',
         title: 'President of Mbinor branch',
@@ -166,21 +166,21 @@ export const branches = [
       id: 8,
       name: 'Djottin Branch',
       description: 'This is the description of branch F',
-      image: '/contactUs.png',
+      image: '/bview.png',
       executive: {
         name: 'Charlie',
-        title: 'President of Djottin branch',
-        info: 'More about the president',
+        title: 'Nsa Charles Ndibowiy,',
+        info: 'president of NSA Djottin Branch.',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
-          whatsapp: 'https://wa.me/+237675992040',
+          whatsapp: 'https://wa.me/+237650650095',
 
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/no.png",
+        image:"/djottin.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -189,21 +189,20 @@ export const branches = [
       id: 9,
       name: 'Din Branch',
       description: 'This is the description of branch F',
-      image: '/contactUs.png',
+      image: '/bview.png',
       executive: {
-        name: 'Charlie',
-        title: 'President of Din branch',
-        info: 'More about the president',
+        name: 'MR NDIKAKA JOEL.',
+        info: 'President of NSA Din Branch.',
         social: {
           twitter: 'https://twitter.com/charlie',
           linkedin: 'https://linkedin.com/charlie',
-          whatsapp: 'https://wa.me/+237670574966',
+          whatsapp: 'https://wa.me/+237670574966.',
 
           lImage:<BsLinkedin/>,
           fImage:<BsFacebook/>,
           wImage:<BsWhatsapp/>
         },
-        image:"/no.png",
+        image:"/din.png",
         Email:"branch@gmail.com", 
       },
     },
@@ -212,7 +211,7 @@ export const branches = [
       id: 10,
       name: 'Dom Branch',
       description: 'President of Dom branch',
-      image: '/contactUs.png',
+      image: '/bview.png',
       executive: {
         name: 'Charlie',
         title: 'President of Dom branch',
@@ -235,7 +234,7 @@ export const branches = [
       id: 11,
       name: 'Bafoussam Branch',
       description: 'This is the description of branch F',
-      image: '/contactUs.png',
+      image: '/bview.png',
       executive: {
         name: 'Charlie',
         title: 'President of Bafouossam branch',
