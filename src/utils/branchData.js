@@ -122,8 +122,8 @@ export const branches = [
       description: 'This is the description of branch F',
       image: '/bview.png',
       executive: {
-        name: 'NGEW YAI Emmanuel',
-        title: 'President Nkor Branch',
+        name: 'Hon. NGEW YAI Emmanuel',
+        title: 'Hon. NGEW YAI Emmanuel',
         info: 'Youth MP for Oku/ Noni ',
         social: {
           twitter: 'https://twitter.com/charlie',
