@@ -191,7 +191,7 @@ export const branches = [
       description: 'This is the description of branch F',
       image: '/bview.png',
       executive: {
-        name: 'MR NDIKAKA JOEL.',
+        title: 'MR NDIKAKA JOEL.',
         info: 'President of NSA Din Branch.',
         social: {
           twitter: 'https://twitter.com/charlie',

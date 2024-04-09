@@ -11,14 +11,14 @@ const objectiveData=[
     {
         id:1,
         title:"Motto",
-        description:"`Kentaashe nu Mvungay` (Unity Is Strength)",
+        description:" `Kentaashe nu Mvungay` (Unity Is Strength)",
      icon:<FaDesktop />,
     },
 
     {
         id:2,
         title:"Mobilization",
-        description:"To mobilize, rally and galvanize all the Noni students into a united force with the aim of promoting mutual trust and understanding; Encouraging the advancement of education and culture both in and out  Noni;",
+        description:"To mobilize, rally and galvanize all the Noni students into a united force with the aim of promoting mutual trust and understanding; Encouraging the advancement of education and culture both in and out of Noni",
        icon:<FaDesktop />
     },
 
