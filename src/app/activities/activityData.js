@@ -11,12 +11,45 @@ export const Data= [
         image: '/e6.png',
         title: 'Dr Ndiyun',
         category:"education",
-        text: '"President Emeritus Dr Ndiyun Robert for his PHD defense in Johannesburg-South Africa",.',
+        text: "President Emeritus Dr Ndiyun Robert for his PHD defense in Johannesburg-South Africa.",
+        subText:"welcome t"
+      },
+
+      {    id:2,
+        image: '/re2.png',
+        title: 'Family picture',
+        category:"event",
+        text: "Join us for the National Excos' Visit to NSA Douala Branch on Sunday.",
+        subText:"welcome "
+      },
+
+      {    id:3,
+        image: '/re1.png',
+        title: 'Family picture',
+        category:"event",
+        text: "Join us for the National Excos' Visit to NSA Douala Branch",
+        subText:"welcome "
+      },
+
+
+      {    id:4,
+        image: '/re3.png',
+        title: 'N.S.A Douala',
+        category:"event",
+        text: "Join us for the National Excos' Visit to NSA Douala Branch on Sunday",
+        subText:"welcome "
+      },
+
+      {    id:5,
+        image: '/re4.png',
+        title: 'Recent Event Pictures',
+        category:"event",
+        text: "Join us for the National Excos' Visit to NSA Douala Branch on Sunday",
         subText:"welcome t"
       },
 
       {
-        id:3,
+        id:6,
         image: '/e3.png',
         title: 'Football Match',
         category:"sport",
@@ -24,7 +57,7 @@ export const Data= [
       },
 
       {
-        id:4,
+        id:7,
         image: '/e4.png',
         title: 'Mr and Miss N.S.A',
         category:"events",
@@ -32,7 +65,7 @@ export const Data= [
       },
   
       {
-        id:5,
+        id:8,
           image: '/e5.png',
           title: 'Promoting Culture',
           category:"culture",
@@ -41,7 +74,7 @@ export const Data= [
         },
   
         {
-          id:6,
+          id:9,
           image: '/e8.png',
           title: 'At CRTV Bamenda',
           category:"events",
@@ -50,7 +83,7 @@ export const Data= [
 
         
         {
-          id:7,
+          id:10,
           image: '/e9.png',
           title: 'General Assembly',
           category:"events",
@@ -58,7 +91,7 @@ export const Data= [
         },
 
         {
-          id:8,
+          id:11,
           image: '/e10.png',
           title: 'General Assembly',
           category:"events" || "National Assembly",
@@ -66,7 +99,7 @@ export const Data= [
         },
         
         {
-          id:9,
+          id:12,
           image: '/ac1.png',
           title: 'Njang NSA',
           category:"culture",
@@ -75,7 +108,7 @@ export const Data= [
 
 
         {
-          id:10,
+          id:13,
           image: '/ac2.png',
           title: '2012 Excursion',
           category:"events",
@@ -84,7 +117,7 @@ export const Data= [
         },
 
         {
-          id:11,
+          id:14,
           image: '/ac3.png',
           title: ' Excursion',
           category:"events",
@@ -93,7 +126,7 @@ export const Data= [
         },
 
         {
-          id:12,
+          id:15,
           image: '/ac4.png',
           title: 'Our Member',
           category:"events",
