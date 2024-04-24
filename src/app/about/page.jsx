@@ -7,7 +7,7 @@ import me from "../../../public/ac4.png"
 import SectionHeader from "@/components/sectionHeader/sectionHeader"
 import Faqs from "@/components/faqs/Faqs.jsx"
 import AboutLogic from "@/components/aboutLogic/AboutLogic"
-import FixedButton from "@/components/eventBtn/eventButton"
+
 
 export const metadata={
     title:"About"
@@ -46,7 +46,7 @@ const AboutPage=()=>{
 </Link>  
     
     */}
-    <FixedButton/>
+  
     
        </section>
     )

@@ -7,19 +7,26 @@ export default function sitemap() {
         priority: 1,
       },
       {
-        url: `${process.env.NEXT_PUBLIC_BASE_URL}/about`,
+        url: "https://nonistudents.vercel.app",
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.8,
       },
       {
-        url:  `${process.env.NEXT_PUBLIC_BASE_URL}/activities`,
+        url:  "https://nonistudents.vercel.app/about",
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.5,
       },
       {
-        url:  `${process.env.NEXT_PUBLIC_BASE_URL}/contact`,
+        url:  "https://nonistudents.vercel.app/activities",
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.5,
+      },
+
+      {
+        url:  "https://nonistudents.vercel.app/branches",
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.5,

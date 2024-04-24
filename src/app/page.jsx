@@ -76,7 +76,7 @@ const Home = () => {
       <Services/>
       <Objectives/>
       <TestimonialsPage/>
-      <FixedButton/>
+      
 
     </section>
      );
