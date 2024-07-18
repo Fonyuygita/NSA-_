@@ -26,7 +26,7 @@ export const metadata = {
     "noni vercel",
     "studentsassociation noni",
     "nonistudents association",
-    
+
   ],
   openGraph: {
     url: "https://nonistudents.vercel.app",
@@ -69,17 +69,19 @@ export const metadata = {
 const Home = () => {
 
   return (
-    <section className={styles.content}> 
-   
-      <Hero/>
-      <Executives/>
-      <Services/>
-      <Objectives/>
-      <TestimonialsPage/>
-      
+    <section className={styles.content}>
+
+      <Hero />
+      <Executives />
+      <Services />
+      <Objectives />
+      <TestimonialsPage />
+      <FixedButton />
+
+
 
     </section>
-     );
+  );
 };
 
 export default Home;

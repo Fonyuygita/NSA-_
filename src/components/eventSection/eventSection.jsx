@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./eventSection.module.css";
-// import CountdownTimer from "./eventTimer";
+import CountdownTimer from "./eventTimer";
 
 const EventSection = () => {
   return (
@@ -12,13 +12,15 @@ const EventSection = () => {
         <Image src="/ac6.png" alt="Event Image" width={600} height={400} />
       </div>
       <div className={styles.eventContent}>
-        <h2>Event Today</h2>
-        <p>{"Join us for the National Excos' Visit to NSA Douala Branch on Sunday April 21st, 2024!"}</p>
-        <div className={styles.timer}></div>
-        <Link href="/event" className={styles.eventLink}>
-Event is Today
+        <h2>Next Event</h2>
+        <p>{"The National convention which is coming up, from the 15th of August to the 18th of August 2024 "}</p>
+        <div className={styles.timer}>
+          <CountdownTimer />
+        </div>
+        <Link href="https://docs.google.com/forms/d/18f4cKg_tyWe0lk9CuDYLKl2bQKJrGF-TYbp8Q_D_11o/edit" className={styles.eventLink}>
+          RSVP
         </Link>
-        
+
       </div>
     </section>
   );
