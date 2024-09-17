@@ -52,9 +52,16 @@ border-radius: 50%;
     gap: 2.5rem;
 }
 
+.navItems a{
+ text-align: center;
+}
+
 
 .navItems a.active {
-    color: var(--color-primary);
+    color: var(--color-gray-200);
+    background-color: var(--color-danger);
+    padding: 10px 23px;
+    border-radius: 12px;
 }
 .notActive{
     color: #fff;
@@ -72,6 +79,13 @@ border-radius: 50%;
 }
 
 @media screen and (max-width: 600px){
+
+    .navItems a.active {
+            /* color: var(--color-gray-200);
+            background-color: var(--color-danger);
+            padding: 10px 23px; */
+            border-radius: none;
+        }
     .navItems{
         flex-direction: column;
         gap: 1px;

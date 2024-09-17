@@ -47,7 +47,7 @@ const Executives = () => {
 
     {
 
-      name: 'Shey Dieudonne Ngwang',
+      name: 'Mr Shey Dieudonne Ngwang',
       position: 'General Organizing secretary.',
       picture: '/f.png',
       socialMedia: [
@@ -59,7 +59,7 @@ const Executives = () => {
 
     {
 
-      name: 'Mr Idirisu Kabiru: National ',
+      name: 'Mr Idirisu Kabiru ',
       position: 'Financial Secretary of NSA ',
       desc: "I am also the Financial Secretary of NSA Douala Branch",
       picture: '/e.png',
@@ -75,7 +75,7 @@ const Executives = () => {
 
   return (
     <section className={styles.container}>
-      <SectionHeader title="Our Executive" description="Here are our top executives" />
+      <SectionHeader title="Our Executive" description="The leaders of the Noni Student Association, comprising the executive committee, exemplify strong leadership, dedication, and a commitment to student welfare. They drive the organization's vision, plan events, engage with the community, and advocate for student rights, fostering an inclusive environment where students can thrive academically and socially." />
 
 
 

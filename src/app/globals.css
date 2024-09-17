@@ -32,7 +32,7 @@
 
   --container-width-lg: 90%;
   --container-width-md: 94%;
-  --bg: #ffff;
+  --bg: #f1e9e9;
   --bgSoft: #2d2b42;
   --text: white;
   --textSoft: #e5e5e5;
@@ -56,7 +56,7 @@
 
 
 main {
-  background: var(--color-gray-100) url(./bg/dark-texture.png);
+  /* background: var(--color-gray-100) url(./bg/dark-texture.png); */
    /* 8px * 8px canvas with right-angled trangled white bg with 8% opacity */
   color: var(--color-gray-600);
   overflow-x: hidden;

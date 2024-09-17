@@ -1,8 +1,13 @@
+
 .container {
     display: flex;
     gap: 100px;
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
     width: 100%;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
  
  
   }
@@ -11,14 +16,17 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-top: 3rem;
+    gap: 20px;
   }
   
   .title{
     font-size: 50px;
-    color: #111;
+    color: #130e93;
     font-weight: bolder;
+  }
+
+  .title span{
+    color: var(--color-danger);
   }
 
   .slideText{
@@ -33,15 +41,16 @@
   .title2{
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    color: #444;
+    color: #14193f;
     font-weight: bold;
+    margin-top: 1.5rem;
 
   }
   
   
   .desc{
-    font-size: 20px;
-    color: #555;
+    font-size: 1rem;
+    color: #13025c;
   }
   
   .buttons{
@@ -51,17 +60,27 @@
   
   .button{
     padding: 12px;
-    min-width: 120px;
+    min-width: 220px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
     background-color: var(--color-danger);
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: all 200ms ease-in;
   }
   
+.button:hover{
+transform: scale(1.1);
+}
+
   .button:first-child{
     background-color: #072451;
     color: var(--text);
+    display: none;
   }
 
   
@@ -98,7 +117,7 @@
     display: block;
   object-fit: cover;
   width: 100%;
-  height: auto
+  height: 100%;
 
   }
   
@@ -134,13 +153,24 @@
     }
 .textContainer{
   width: 100%;
+  margin-top: -1.4rem;
+  background-color: #ffffff;
 }
-
+/* 
+.title{
+  background-color: #13025c;
+  padding: 15px 24px;
+} */
 .imgContainer {
   margin-top: 2rem;
   width: 100%;
   height: 360px;
   margin: 0 auto;
+  background-color: var(--btn2);
+    -webkit-box-shadow: -2px 7px 11px 0px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: -2px 7px 11px 0px rgba(0, 0, 0, 0.63);
+    box-shadow: -2px 7px 11px 0px rgba(0, 0, 0, 0.63);
+    padding: 23px;
   
 
 }
@@ -157,7 +187,7 @@
       margin: 0 auto;
       width: 90%;
       height: 300px;
-      background-color: red;
+      background-color: var(--bg-primary);
     }
   
     .buttons{
@@ -168,6 +198,8 @@
   @media (max-width: 600px) {
     .title {
       font-size: 30px;
+  padding: 2px;
+  padding-top: 2rem;
     }
   .title2{
     font-size: 25px;
@@ -175,7 +207,7 @@
   }
 
   .desc{
-    font-size: 19px;
+    font-size: 1rem;
   }
     .brands{
       width: 90%;

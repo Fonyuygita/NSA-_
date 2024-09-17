@@ -4,6 +4,10 @@ import Hero from "@/components/home/hero/Hero";
 import Services from "@/components/services/Services";
 import Executives from "@/components/executive/Executive";
 import Objectives from "@/components/objectives/Objectives";
+import HeroDown from "@/components/heroDown/HeroDown";
+import Faqs from "@/components/faqs/Faqs";
+
+
 import TestimonialsPage from "@/components/testimonial/Testimonial.jsx";
 import FixedButton from "@/components/eventBtn/eventButton";
 
@@ -72,10 +76,12 @@ const Home = () => {
     <section className={styles.content}>
 
       <Hero />
+      <HeroDown />
       <Executives />
       <Services />
       <Objectives />
       <TestimonialsPage />
+      <Faqs />
       <FixedButton />
 
 

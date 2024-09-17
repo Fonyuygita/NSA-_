@@ -18,15 +18,23 @@ gap: 4rem;
 .teamMember{
   padding: 1rem;
   overflow: hidden;
-  background-color: #f0f0f0;
+
   border: 1px solid transparent;
   border-radius: 1rem;
   transition: var(--transition);
+
+background-color: #f9f9f9;
+
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+
   position: relative; /*to enable us position our socials absolutely below*/
-  -webkit-box-shadow: -2px 7px 11px 0px rgba(0,0,0,0.63);
+  /* -webkit-box-shadow: -2px 7px 11px 0px rgba(0,0,0,0.63);
 -moz-box-shadow: -2px 7px 11px 0px rgba(0,0,0,0.63);
 box-shadow: -2px 7px 11px 0px rgba(0,0,0,0.63);
-transition: var(--transition);
+transition: var(--transition); */
+/* box-shadow: 7px 7px 11px #333; */
 opacity: 0;
 animation: identifier 1s ease-in forwards;
   }
@@ -59,13 +67,14 @@ animation: identifier 1s ease-in forwards;
 }
 .teamMember h3{
   margin-bottom: 1rem;
+  color: #082064;
  
-  font-size: 20px;
+  font-size: 18px;
 
 }
 
 .teamInfo p{
-  color: #333;
+  color: var(--color-danger);
 }
 
 .img{
@@ -76,6 +85,7 @@ animation: identifier 1s ease-in forwards;
   align-items: center;
   margin: 0 auto;
   border-radius: 50%;
+  /* object-fit: contain; */
   /* border-radius: 50%; */
 }
 .teamMemberSocials{

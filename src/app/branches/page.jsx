@@ -30,7 +30,6 @@ const Branch = () => {
             <BranchCard key={branch.id} branch={branch} />
           ))}
         </div>
-        <FixedButton/>
 
       </div>
     );
