@@ -6,7 +6,7 @@ export const branches = [
   {
     id: 1,
     name: 'Yaounde Branch',
-    description: 'This is the description of branch A',
+    description: 'Welcome to the the Yaounde Branch',
     image: '/ynde.png',
     executive: {
       name: 'Nkey Vandoline',
@@ -28,7 +28,7 @@ export const branches = [
   {
     id: 2,
     name: 'Douala Branch ',
-    description: 'This is the description of branch B',
+    description: 'Welcome to the Douala Branch',
     image: '/douala.jpg',
     executive: {
       name: 'Kinchin Livinus Shey',
@@ -50,7 +50,7 @@ export const branches = [
   {
     id: 3,
     name: 'Buea Branch',
-    description: 'This is the description of branch C',
+    description: 'Welcome to the Buea branch',
     image: '/buea.png',
     executive: {
       name: 'Charlie',
