@@ -6,8 +6,8 @@ import styles from "./event.module.css"
 const page = () => {
   return (
     <div className={styles.Eventcontainer}>
-      <EventSection/>
-      
+      <EventSection />
+
     </div>
   )
 }

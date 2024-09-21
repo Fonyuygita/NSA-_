@@ -31,7 +31,7 @@ const AboutLogic = () => {
 
       <div className={styles.nsaLogo}>
 
-        <Image src="/re1.png" width={100} height={100} alt="logo" className={styles.float} object-fit="cover" />
+        <Image src="/re2.svg" width={100} height={100} alt="logo" className={styles.float} object-fit="cover" />
 
       </div>
 

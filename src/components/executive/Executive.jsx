@@ -10,7 +10,7 @@ const Executives = () => {
   const Executives = [
     {
 
-      name: 'Mrs Nkey Vandoline',
+      name: 'Madam Nkey Vandoline',
       position: 'General President ',
       picture: '/a1.png',
       socialMedia: [

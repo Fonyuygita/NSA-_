@@ -13,7 +13,8 @@ const EventSection = () => {
       </div>
       <div className={styles.eventContent}>
         <h2>Next Event</h2>
-        <p>{"The National convention which is coming up, from the 15th of August to the 18th of August 2024 "}</p>
+        <h3>Noni General  Assembly Meeting (NGAM) Updates</h3>
+        <p>All Noni son and daughters are hereby informed that there shall be a general assembly meeting (NGAM) in Bafoussam from November 15 to 18, 2024. Worthy of note is the fact that our <span className={styles.span}>Fons shall all be present</span></p>
         <div className={styles.timer}>
           <CountdownTimer />
         </div>

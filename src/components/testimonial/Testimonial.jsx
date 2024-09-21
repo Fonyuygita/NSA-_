@@ -18,7 +18,7 @@ import SectionHeader from "../sectionHeader/sectionHeader";
 const Testimonial = () => {
     return (
         <section className={styles.section}>
-            <SectionHeader title="Testimonials From Leaders" description="We are ready to serve all your needs without hessitation" />
+            <SectionHeader title="Testimonials From Leaders" description="Discover insights from our esteemed leaders, sharing their impactful experiences and the value of community-driven leadership" />
 
 
             <Swiper

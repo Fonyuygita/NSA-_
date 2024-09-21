@@ -102,8 +102,8 @@ const Hero = () => {
             <span>About Us</span>
 
           </Link>
-          <Link href="/contact" className={styles.button}>
-            <span>Contact Us</span>
+          <Link href="/about" className={styles.button}>
+            <span>About Us</span>
             <span><FaArrowRight /></span>
           </Link>
         </div>

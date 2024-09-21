@@ -22,7 +22,7 @@
   
   .buttonLink:hover {
     /* background-color: #e64a19; */
-    background-color: green;
+    background-color: var(--btn2);
     animation: none;
   }
   

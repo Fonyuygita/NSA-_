@@ -6,7 +6,7 @@ import SectionHeader from "../sectionHeader/sectionHeader";
 const Faqs = () => {
     return (
         <section className={styles.section}>
-            <SectionHeader title="Frequently Ask Questions" description="The leaders of the Noni Student Association, comprising the executive committee, exemplify strong leadership, dedication, and a commitment to student welfare." />
+            <SectionHeader title="Frequently Ask Questions" description="Welcome to the Noni Student Association, a vibrant community fostering growth, diversity, and academic excellence. Join us for events, networking opportunities, and support as we strive for inclusivity and student success." />
 
 
             <div className={`container ${styles.container}`}>

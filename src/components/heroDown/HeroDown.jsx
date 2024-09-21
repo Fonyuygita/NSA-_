@@ -5,26 +5,7 @@ import styles from './heroDown.module.css';
 import Animate from 'rc-animate';
 
 const data = [
-    {
-        title: 'Pride of Noni Students Association',
-        icon: 'users',
-        description: 'Join us in the journey of excellence and community.',
-    },
-    {
-        title: 'Honors of Noni Students Association',
-        icon: 'star',
-        description: 'Recognizing and celebrating achievements in education and beyond.',
-    },
-    {
-        title: 'Empowerment through Education',
-        icon: 'star',
-        description: 'Providing opportunities for growth and success through learning.',
-    },
-    {
-        title: 'Community Engagement',
-        icon: 'users',
-        description: 'Building a strong network of students and alumni for a better tomorrow.',
-    },
+   
 
     {
         title: 'Pride of Noni Students Association',

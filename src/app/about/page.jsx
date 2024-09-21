@@ -19,7 +19,7 @@ const AboutPage = () => {
 
     return (
         <section className={styles.about}>
-            <SectionHeader title="About Us" description="We are ready to serve all your needs without hessitation" />
+            <SectionHeader title="About Us" description="Noni Students’ Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon" />
             <div className={`container ${styles.container}`}>
                 <article className={styles.image}>
                     <Image src="/re2.png" alt="nsa" width={400} height={300} />

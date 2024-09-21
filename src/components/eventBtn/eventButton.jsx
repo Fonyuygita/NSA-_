@@ -7,7 +7,7 @@ const FixedButton = () => {
   return (
     <div className={styles.fixedButton}>
       <Link href="/event" className={styles.buttonLink}>
-        Next today
+        Next Event 😑
       </Link>
     </div>
   );

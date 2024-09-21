@@ -56,7 +56,9 @@ export default function RootLayout({ children }) {
           </div>
           <div className="down">
             <Footer />
+
           </div>
+          <FixedButton />
         </main>
       </body>
     </html>
