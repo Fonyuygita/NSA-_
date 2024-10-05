@@ -13,9 +13,9 @@ import FixedButton from "@/components/eventBtn/eventButton";
 
 
 export const metadata = {
-  title: "Noni students Association, N.S.Ar",
+  title: "Noni students Association, N.S.A",
   description:
-    "Noni Student’s Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon",
+    "nonistudents.vercel.app - Noni Student’s Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon",
   keywords: [
     "nonistudens",
     "noni students association",

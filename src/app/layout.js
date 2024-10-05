@@ -13,7 +13,7 @@ export const metadata = {
     template: "%s - Noni Student Association",
   },
 
-  description: "Noni Student’s Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon",
+  description: "nonistudents.vercel.app - Noni Student’s Association is an umbrella group of all students and learners from Noni Subdivision of Bui Division in the North West Region of Cameroon",
   other: {
     name: "google-site-verification",
     content: "2tcesPtaKPl4hu1Lvz0ICM0phoIgcH-HXRv7SffXr9U"
